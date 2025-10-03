@@ -13,6 +13,10 @@ from models.loan_model import LoanPredictionModel
 app = Flask(__name__, template_folder='../templates', static_folder='../static')
 CORS(app)
 
+# Production configuration
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'loan-ml-secret-key-2024')
+app.config['DEBUG'] = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
+
 # Initialize model
 loan_model = LoanPredictionModel()
 
