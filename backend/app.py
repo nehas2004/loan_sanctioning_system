@@ -8,7 +8,7 @@ import sys
 # Add project root to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from models.loan_model import LoanPredictionModel
+from models.simple_loan_model import SimpleRuleBasedLoanModel
 
 app = Flask(__name__, template_folder='../templates', static_folder='../static')
 CORS(app)
@@ -18,35 +18,12 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'loan-ml-secret-key-2024
 app.config['DEBUG'] = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
 
 # Initialize model
-loan_model = LoanPredictionModel()
+loan_model = SimpleRuleBasedLoanModel()
 
-# Try to load existing model, otherwise train a new one
+# Initialize rule-based model (no training needed)
 def initialize_model():
-    if os.path.exists('models/loan_model.pkl'):
-        loan_model.load_model('models/loan_model.pkl')
-        print("Model loaded successfully!")
-    else:
-        print("No trained model found. Training a new model...")
-        try:
-            # Check if data exists
-            if os.path.exists('data/loan_train.csv'):
-                # Load and train model
-                df = loan_model.load_data('data/loan_train.csv') 
-                if df is not None:
-                    processed_data = loan_model.preprocess_data(df)
-                    X, y = loan_model.prepare_features(processed_data)
-                    loan_model.train_model(X, y)
-                    
-                    # Save the model
-                    os.makedirs('models', exist_ok=True)
-                    loan_model.save_model('models/loan_model.pkl')
-                    print("Model trained and saved successfully!")
-                else:
-                    print("Error loading training data")
-            else:
-                print("Training data not found. Please run generate_data.py first.")
-        except Exception as e:
-            print(f"Error training model: {e}")
+    print("Rule-based loan model initialized successfully!")
+    print("Model uses financial industry standards for loan approval decisions.")
 
 # Initialize model on startup
 initialize_model()
@@ -85,20 +62,14 @@ def predict():
             applicant_data_display['LoanAmount'] = loan_amount_rupees
             
             # Make prediction - initialize model if not available
-            if loan_model.model is None:
-                print("Model not loaded, attempting to initialize...")
-                initialize_model()
+            # Rule-based model is always ready
+            result, confidence, probabilities = loan_model.predict_single(applicant_data)
             
-            if loan_model.model is not None:
-                result, confidence, probabilities = loan_model.predict_single(applicant_data)
-                
-                return render_template('result.html', 
-                                     result=result,
-                                     confidence=round(confidence, 2),
-                                     applicant_data=applicant_data_display,
-                                     probabilities=probabilities)
-            else:
-                return render_template('predict.html', error="Model not available. Please train the model first.")
+            return render_template('result.html', 
+                                 result=result,
+                                 confidence=round(confidence, 2),
+                                 applicant_data=applicant_data_display,
+                                 probabilities=probabilities)
         
         except Exception as e:
             return render_template('predict.html', error=f"Error making prediction: {str(e)}")
@@ -111,28 +82,18 @@ def api_predict():
     try:
         data = request.json
         
-        # Initialize model if not available
-        if loan_model.model is None:
-            print("API: Model not loaded, attempting to initialize...")
-            initialize_model()
-            
-        if loan_model.model is not None:
-            result, confidence, probabilities = loan_model.predict_single(data)
-            
-            return jsonify({
-                'success': True,
-                'prediction': result,
-                'confidence': round(confidence, 2),
-                'probabilities': {
-                    'rejected': round(probabilities[0] * 100, 2),
-                    'approved': round(probabilities[1] * 100, 2)
-                }
-            })
-        else:
-            return jsonify({
-                'success': False,
-                'error': 'Model not available'
-            }), 500
+        # Rule-based model is always ready
+        result, confidence, probabilities = loan_model.predict_single(data)
+        
+        return jsonify({
+            'success': True,
+            'prediction': result,
+            'confidence': round(confidence, 2),
+            'probabilities': {
+                'rejected': round(probabilities[0] * 100, 2),
+                'approved': round(probabilities[1] * 100, 2)
+            }
+        })
     
     except Exception as e:
         return jsonify({
@@ -144,24 +105,17 @@ def api_predict():
 def analytics():
     """Analytics dashboard"""
     try:
-        # Check if model is available
-        if loan_model.model is None:
-            return render_template('analytics.html', error="Model not available")
-        
-        # Initialize model if not available
-        if loan_model.model is None:
-            print("Analytics: Model not loaded, attempting to initialize...")
-            initialize_model()
+        # Rule-based model is always available
         
         # Get feature importance using the model's method
         feature_importance = loan_model.get_feature_importance()
         
-        # Get tree rules using the model's method
-        tree_rules = loan_model.get_tree_rules(max_depth=3)
+        # Get decision rules using the model's method
+        decision_rules = loan_model.get_decision_rules()
         
         return render_template('analytics.html', 
                              feature_importance=feature_importance,
-                             tree_rules=tree_rules)
+                             decision_rules=decision_rules)
     
     except Exception as e:
         return render_template('analytics.html', error=f"Error loading analytics: {str(e)}")
@@ -178,33 +132,13 @@ def train():
 
 @app.route('/api/train', methods=['POST'])
 def api_train():
-    """API endpoint for model training"""
-    try:
-        # Check if training data exists
-        if not os.path.exists('data/loan_train.csv'):
-            return jsonify({
-                'success': False,
-                'error': 'Training data not found. Please generate data first.'
-            }), 400
-        
-        # Load and train model
-        df = loan_model.load_data('data/loan_train.csv')
-        processed_data = loan_model.preprocess_data(df)
-        X, y = loan_model.prepare_features(processed_data)
-        results = loan_model.train_model(X, y)
-        
-        # Save model
-        loan_model.save_model()
-        
+    """API endpoint for model training (rule-based model doesn't need training)"""
+    try:        
         return jsonify({
             'success': True,
-            'message': 'Model trained successfully!',
-            'metrics': {
-                'accuracy': round(results['accuracy'], 4),
-                'precision': round(results['precision'], 4),
-                'recall': round(results['recall'], 4),
-                'f1_score': round(results['f1_score'], 4)
-            }
+            'message': 'Rule-based model is ready to use!',
+            'info': 'This model uses financial industry standards and does not require training.',
+            'rules': loan_model.get_decision_rules()['rules_summary']
         })
     
     except Exception as e:

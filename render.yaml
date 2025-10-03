@@ -1,11 +1,12 @@
-# Docker Deployment Configuration for Render
-# This ensures we use Python 3.10 via Docker (guaranteed compatibility)
+# Native Python Deployment Configuration for Render
+# Uses rule-based model (no compilation-heavy ML dependencies)
 
 services:
   - type: web
     name: loan-sanctioning-system
-    env: docker
-    dockerfilePath: ./Dockerfile
+    env: python
+    buildCommand: pip install -r requirements_nuclear.txt
+    startCommand: gunicorn backend.app:app --bind 0.0.0.0:$PORT
     region: oregon
     plan: free
     branch: main
