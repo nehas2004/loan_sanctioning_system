@@ -29,6 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize navigation
     initializeNavigation();
     
+    // Initialize mobile menu
+    initializeMobileMenu();
+    
     // Initialize charts if present
     initializeCharts();
     
@@ -452,6 +455,66 @@ function formatIndianCurrency(amount) {
     }
 }
 
+// Mobile Menu Management
+function initializeMobileMenu() {
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+    const navMenu = document.getElementById('navMenu');
+    
+    if (mobileMenuToggle && navMenu) {
+        mobileMenuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a nav link
+        const navLinks = navMenu.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!navMenu.contains(event.target) && !mobileMenuToggle.contains(event.target)) {
+                navMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            }
+        });
+    }
+}
+
+// Enhanced Button Visibility Fix
+function enhanceButtonVisibility() {
+    // Force visibility and styling for all buttons
+    const buttons = document.querySelectorAll('.btn, button, [type="submit"]');
+    buttons.forEach(button => {
+        button.style.opacity = '1';
+        button.style.visibility = 'visible';
+        button.style.pointerEvents = 'auto';
+        
+        // Add enhanced classes if not present
+        if (!button.classList.contains('btn-enhanced')) {
+            button.classList.add('btn-enhanced');
+        }
+    });
+    
+    // Force visibility for navigation links
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+        link.style.opacity = '1';
+        link.style.visibility = 'visible';
+        link.style.color = 'var(--text-primary)';
+        link.style.fontWeight = '600';
+    });
+}
+
+// Call enhancement functions
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(enhanceButtonVisibility, 100);
+});
+
 // Export functions for use in other scripts
 window.LoanSystem = {
     showLoadingState,
@@ -461,5 +524,6 @@ window.LoanSystem = {
     formatCurrency,
     formatIndianCurrency,
     formatPercentage,
-    debounce
+    debounce,
+    enhanceButtonVisibility
 };

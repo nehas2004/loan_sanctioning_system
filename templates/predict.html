@@ -6,16 +6,16 @@
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-lg-8">
-            <div class="card shadow-lg">
-                <div class="card-header bg-primary text-white">
-                    <h3 class="card-title mb-0">
+            <div class="card card-enhanced">
+                <div class="card-header card-header-enhanced">
+                    <h3 class="card-title mb-0 text-enhanced" style="color: white !important;">
                         <i class="fas fa-calculator me-2"></i>
                         Loan Eligibility Prediction
                     </h3>
-                    <p class="card-text mb-0 mt-2">Fill in the applicant details to get instant loan approval prediction</p>
+                    <p class="card-text mb-0 mt-2" style="color: rgba(255,255,255,0.9) !important;">Fill in the applicant details to get instant loan approval prediction</p>
                 </div>
                 
-                <div class="card-body">
+                <div class="card-body form-enhanced">
                     {% if error %}
                     <div class="alert alert-danger" role="alert">
                         <i class="fas fa-exclamation-triangle me-2"></i>{{ error }}
@@ -157,9 +157,9 @@
                             <!-- Submit Button -->
                             <div class="col-12 mt-4">
                                 <div class="d-grid gap-2">
-                                    <button type="submit" class="btn btn-primary btn-lg" id="predictBtn">
+                                    <button type="submit" class="btn btn-enhanced btn-lg" id="predictBtn">
                                         <i class="fas fa-magic me-2"></i>
-                                        Predict Loan Eligibility
+                                        🎯 Predict Loan Eligibility
                                     </button>
                                 </div>
                             </div>
