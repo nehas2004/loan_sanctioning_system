@@ -1,0 +1,67 @@
+# Ignore unnecessary files for Docker build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.env.*
+.venv
+venv/
+loan_env/
+env/
+ENV/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Documentation (not needed in container)
+*.md
+RENDER_*.md
+DOCKER_*.md
+
+# Windows batch files (not needed in Linux container)
+*.bat
+
+# Alternative requirements files
+requirements_py313.txt
+requirements_minimal.txt
+requirements.txt
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Testing
+test_*.py
+.pytest_cache/
+.coverage
+htmlcov/

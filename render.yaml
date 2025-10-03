@@ -1,20 +1,19 @@
-# Alternative Render Configuration
-# render.yaml - Render Blueprint specification
+# Docker Deployment Configuration for Render
+# This ensures we use Python 3.10 via Docker (guaranteed compatibility)
 
 services:
   - type: web
     name: loan-sanctioning-system
-    env: python
-    region: ohio
+    env: docker
+    dockerfilePath: ./Dockerfile
+    region: oregon
     plan: free
-    buildCommand: chmod +x build.sh && ./build.sh
-    startCommand: gunicorn --bind 0.0.0.0:$PORT backend.app:app --timeout 120 --workers 1 --max-requests 1000
+    branch: main
     envVars:
       - key: FLASK_ENV
         value: production
       - key: SECRET_KEY
-        generateValue: true
+        value: loan-ml-secret-key-2024
       - key: PYTHONPATH
-        value: /opt/render/project/src
-      - key: PYTHON_VERSION
-        value: 3.11.5
+        value: /app
+    healthCheckPath: /
