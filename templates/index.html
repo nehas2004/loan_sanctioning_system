@@ -1,0 +1,241 @@
+{% extends "base.html" %}
+
+{% block title %}Smart Loan Prediction System{% endblock %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6">
+                <div class="hero-content">
+                    <h1 class="display-4 fw-bold text-primary mb-4">
+                        <i class="fas fa-robot me-3"></i>
+                        AI-Powered Loan Sanctioning
+                    </h1>
+                    <p class="lead mb-4">
+                        Streamline your loan approval process with our advanced Decision Tree classification system. 
+                        Get instant, data-driven decisions with transparent reasoning.
+                    </p>
+                    
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+                        <a href="{{ url_for('predict') }}" class="btn btn-primary btn-lg">
+                            <i class="fas fa-calculator me-2"></i>
+                            Check Loan Eligibility
+                        </a>
+                        <a href="{{ url_for('analytics') }}" class="btn btn-outline-primary btn-lg">
+                            <i class="fas fa-chart-bar me-2"></i>
+                            View Analytics
+                        </a>
+                    </div>
+                    
+                    <div class="features-list">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="fas fa-lightning-bolt text-warning me-2"></i>
+                                    <span>Instant Predictions</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="fas fa-eye text-info me-2"></i>
+                                    <span>Transparent Decisions</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="fas fa-chart-line text-success me-2"></i>
+                                    <span>High Accuracy</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="fas fa-shield-alt text-danger me-2"></i>
+                                    <span>Risk Assessment</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="hero-image text-center">
+                    <div class="stats-card">
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="stat-item">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-percentage"></i>
+                                    </div>
+                                    <div class="stat-number" id="accuracy-stat">95%</div>
+                                    <div class="stat-label">Accuracy</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-item">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="stat-number">< 1s</div>
+                                    <div class="stat-label">Processing Time</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-item">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <div class="stat-number" id="applications-stat">1000+</div>
+                                    <div class="stat-label">Applications</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-item">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-tree"></i>
+                                    </div>
+                                    <div class="stat-number">11</div>
+                                    <div class="stat-label">Features</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- How It Works Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="display-5 fw-bold">How It Works</h2>
+                <p class="lead">Our AI system follows a simple 3-step process</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="process-card text-center">
+                    <div class="process-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h4>1. Input Application</h4>
+                    <p>Enter applicant details including income, credit history, and loan requirements</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="process-card text-center">
+                    <div class="process-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h4>2. AI Analysis</h4>
+                    <p>Our Decision Tree model analyzes patterns and evaluates risk factors automatically</p>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="process-card text-center">
+                    <div class="process-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h4>3. Get Decision</h4>
+                    <p>Receive instant approval/rejection with confidence score and reasoning</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Key Features Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="display-5 fw-bold">Key Features</h2>
+                <p class="lead">Why choose our loan sanctioning system?</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h5>Fast Processing</h5>
+                    <p>Get loan decisions in seconds, not days</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h5>Unbiased Decisions</h5>
+                    <p>AI eliminates human bias in loan approval</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h5>Detailed Analysis</h5>
+                    <p>Comprehensive risk assessment with explanations</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h5>User Friendly</h5>
+                    <p>Simple interface accessible from any device</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Animate statistics on page load
+document.addEventListener('DOMContentLoaded', function() {
+    // Animate accuracy percentage
+    animateValue('accuracy-stat', 0, 95, 2000, '%');
+    
+    // Animate applications count
+    animateValue('applications-stat', 0, 1000, 2000, '+');
+});
+
+function animateValue(id, start, end, duration, suffix = '') {
+    const element = document.getElementById(id);
+    if (!element) return;
+    
+    const startTimestamp = performance.now();
+    
+    const step = (timestamp) => {
+        const elapsed = timestamp - startTimestamp;
+        const progress = Math.min(elapsed / duration, 1);
+        
+        const current = Math.floor(progress * (end - start) + start);
+        element.textContent = current + suffix;
+        
+        if (progress < 1) {
+            requestAnimationFrame(step);
+        }
+    };
+    
+    requestAnimationFrame(step);
+}
+</script>
+{% endblock %}

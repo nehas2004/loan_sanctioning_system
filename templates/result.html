@@ -1,0 +1,309 @@
+{% extends "base.html" %}
+
+{% block title %}Prediction Result - Loan Sanctioning System{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <!-- Result Card -->
+            <div class="card shadow-lg">
+                <div class="card-header text-center {% if result == 'Y' %}bg-success{% else %}bg-danger{% endif %} text-white">
+                    <div class="result-icon mb-3">
+                        {% if result == 'Y' %}
+                        <i class="fas fa-check-circle fa-4x"></i>
+                        {% else %}
+                        <i class="fas fa-times-circle fa-4x"></i>
+                        {% endif %}
+                    </div>
+                    <h2 class="mb-0">
+                        {% if result == 'Y' %}
+                        Loan Approved!
+                        {% else %}
+                        Loan Rejected
+                        {% endif %}
+                    </h2>
+                    <p class="mb-0 mt-2">Confidence: {{ confidence }}%</p>
+                </div>
+                
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Prediction Details -->
+                        <div class="col-md-6">
+                            <h5 class="text-primary mb-3">
+                                <i class="fas fa-info-circle me-2"></i>Prediction Details
+                            </h5>
+                            
+                            <div class="prediction-details">
+                                <div class="detail-item">
+                                    <strong>Decision:</strong>
+                                    <span class="badge {% if result == 'Y' %}bg-success{% else %}bg-danger{% endif %} ms-2">
+                                        {% if result == 'Y' %}Approved{% else %}Rejected{% endif %}
+                                    </span>
+                                </div>
+                                
+                                <div class="detail-item mt-2">
+                                    <strong>Confidence Level:</strong>
+                                    <div class="progress mt-1" style="height: 20px;">
+                                        <div class="progress-bar {% if result == 'Y' %}bg-success{% else %}bg-danger{% endif %}" 
+                                             id="confidenceBar" data-width="{{ confidence }}">
+                                            {{ confidence }}%
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                {% if probabilities %}
+                                <div class="mt-3">
+                                    <strong>Probability Breakdown:</strong>
+                                    <div class="probability-chart mt-2">
+                                        <div class="prob-item">
+                                            <span>Approval:</span>
+                                            <div class="prob-bar">
+                                                <div class="prob-fill bg-success" id="approvalBar" 
+                                                     data-width="{{ (probabilities[1] * 100)|round(1) }}"></div>
+                                                <span class="prob-text">{{ (probabilities[1] * 100)|round(1) }}%</span>
+                                            </div>
+                                        </div>
+                                        <div class="prob-item">
+                                            <span>Rejection:</span>
+                                            <div class="prob-bar">
+                                                <div class="prob-fill bg-danger" id="rejectionBar" 
+                                                     data-width="{{ (probabilities[0] * 100)|round(1) }}"></div>
+                                                <span class="prob-text">{{ (probabilities[0] * 100)|round(1) }}%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        
+                        <!-- Application Summary -->
+                        <div class="col-md-6">
+                            <h5 class="text-primary mb-3">
+                                <i class="fas fa-file-alt me-2"></i>Application Summary
+                            </h5>
+                            
+                            <div class="application-summary">
+                                <table class="table table-sm">
+                                    <tr>
+                                        <td><strong>Gender:</strong></td>
+                                        <td>{{ applicant_data.Gender }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Married:</strong></td>
+                                        <td>{{ applicant_data.Married }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Dependents:</strong></td>
+                                        <td>{{ applicant_data.Dependents }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Education:</strong></td>
+                                        <td>{{ applicant_data.Education }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Self Employed:</strong></td>
+                                        <td>{{ applicant_data.Self_Employed }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Income:</strong></td>
+                                        <td>₹{{ "{:,.0f}".format(applicant_data.ApplicantIncome) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Co-applicant Income:</strong></td>
+                                        <td>₹{{ "{:,.0f}".format(applicant_data.CoapplicantIncome) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Loan Amount:</strong></td>
+                                        <td>₹{{ "{:,.0f}".format(applicant_data.LoanAmount) }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Loan Term:</strong></td>
+                                        <td>{{ applicant_data.Loan_Amount_Term }} months</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Credit History:</strong></td>
+                                        <td>{{ "Good" if applicant_data.Credit_History == 1 else "Poor/None" }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Property Area:</strong></td>
+                                        <td>{{ applicant_data.Property_Area }}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Recommendation Section -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div class="alert {% if result == 'Y' %}alert-success{% else %}alert-warning{% endif %}">
+                                <h6 class="alert-heading">
+                                    <i class="fas fa-lightbulb me-2"></i>
+                                    {% if result == 'Y' %}Congratulations!{% else %}Recommendation{% endif %}
+                                </h6>
+                                {% if result == 'Y' %}
+                                <p class="mb-0">
+                                    Your loan application has been approved! Based on your profile, you demonstrate 
+                                    good creditworthiness and repayment capacity. Please proceed with the next steps 
+                                    to complete your loan processing.
+                                </p>
+                                {% else %}
+                                <p class="mb-0">
+                                    Your loan application was not approved at this time. Consider improving the following factors:
+                                </p>
+                                <ul class="mb-0 mt-2">
+                                    {% if applicant_data.Credit_History == 0 %}
+                                    <li>Build or improve your credit history</li>
+                                    {% endif %}
+                                    {% if applicant_data.ApplicantIncome + applicant_data.CoapplicantIncome < 5000 %}
+                                    <li>Increase your total household income</li>
+                                    {% endif %}
+                                    {% if applicant_data.LoanAmount * 1000 > (applicant_data.ApplicantIncome + applicant_data.CoapplicantIncome) * 12 * 5 %}
+                                    <li>Consider applying for a smaller loan amount</li>
+                                    {% endif %}
+                                    <li>You may reapply after addressing these factors</li>
+                                </ul>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap gap-3 justify-content-center">
+                                <a href="{{ url_for('predict') }}" class="btn btn-primary">
+                                    <i class="fas fa-redo me-2"></i>New Application
+                                </a>
+                                <a href="{{ url_for('analytics') }}" class="btn btn-outline-primary">
+                                    <i class="fas fa-chart-bar me-2"></i>View Analytics
+                                </a>
+                                <button onclick="window.print()" class="btn btn-outline-secondary">
+                                    <i class="fas fa-print me-2"></i>Print Result
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+.result-icon {
+    animation: bounceIn 0.6s;
+}
+
+@keyframes bounceIn {
+    0%, 20%, 40%, 60%, 80% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    40% {
+        transform: translateY(-30px);
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    }
+    60% {
+        transform: translateY(-15px);
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    }
+    80% {
+        transform: translateY(-4px);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.probability-chart {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.prob-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.prob-item span:first-child {
+    width: 80px;
+    font-weight: 500;
+}
+
+.prob-bar {
+    flex: 1;
+    height: 25px;
+    background: #e9ecef;
+    border-radius: 12px;
+    position: relative;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.prob-fill {
+    height: 100%;
+    border-radius: 12px;
+    transition: width 0.8s ease-in-out;
+}
+
+.prob-text {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.detail-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.detail-item:last-child {
+    border-bottom: none;
+}
+
+@media print {
+    .btn, .navbar, footer {
+        display: none !important;
+    }
+}
+</style>
+
+<script>
+// Set dynamic widths for progress bars
+document.addEventListener('DOMContentLoaded', function() {
+    // Confidence bar
+    const confidenceBar = document.getElementById('confidenceBar');
+    if (confidenceBar) {
+        const width = confidenceBar.getAttribute('data-width');
+        confidenceBar.style.width = width + '%';
+    }
+    
+    // Approval bar
+    const approvalBar = document.getElementById('approvalBar');
+    if (approvalBar) {
+        const width = approvalBar.getAttribute('data-width');
+        approvalBar.style.width = width + '%';
+    }
+    
+    // Rejection bar
+    const rejectionBar = document.getElementById('rejectionBar');
+    if (rejectionBar) {
+        const width = rejectionBar.getAttribute('data-width');
+        rejectionBar.style.width = width + '%';
+    }
+});
+</script>
+{% endblock %}

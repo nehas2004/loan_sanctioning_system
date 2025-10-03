@@ -1,0 +1,23 @@
+# Deployment Requirements
+# Production-ready package versions for hosting
+
+# Core Framework
+Flask==3.1.2
+Flask-CORS==6.0.1
+
+# Machine Learning
+scikit-learn==1.7.2
+pandas==2.3.3
+numpy==2.3.3
+joblib==1.4.2
+
+# Data Visualization
+matplotlib==3.9.3
+seaborn==0.13.2
+
+# Utilities
+python-dotenv==1.0.1
+
+# Production Server
+gunicorn==23.0.0
+waitress==3.0.2

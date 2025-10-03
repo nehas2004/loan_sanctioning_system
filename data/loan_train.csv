@@ -1,0 +1,1001 @@
+Gender,Married,Dependents,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Property_Area,Loan_Status
+Male,Yes,0,Graduate,No,2501,2089,175,360,1,Rural,Y
+Female,Yes,0,Not Graduate,No,3206,378,181,360,1,Semiurban,Y
+Female,No,3+,Graduate,No,9639,4117,88,360,1,Semiurban,Y
+Male,No,0,Graduate,No,2077,1899,74,300,1,Rural,Y
+Male,No,0,Graduate,Yes,10187,342,112,300,0,Urban,Y
+Male,Yes,2,Not Graduate,No,461,6558,116,120,0,Semiurban,N
+Male,Yes,1,Not Graduate,No,7498,1461,187,300,1,Semiurban,Y
+Female,No,2,Graduate,No,9404,151,119,480,1,Urban,Y
+Female,Yes,0,Graduate,No,1003,1971,107,360,1,Rural,N
+Female,Yes,1,Graduate,Yes,2813,583,119,300,0,Rural,Y
+Male,Yes,0,Graduate,Yes,904,3256,205,360,1,Urban,Y
+Female,No,0,Graduate,No,6131,3405,150,360,1,Urban,Y
+Female,No,3+,Graduate,No,3832,7721,141,300,1,Semiurban,N
+Male,Yes,0,Graduate,No,5043,1393,144,120,1,Urban,Y
+Male,No,1,Graduate,No,1093,1213,214,180,1,Semiurban,Y
+Male,No,1,Graduate,No,1189,2800,112,360,1,Urban,Y
+Male,Yes,0,Graduate,No,211,284,215,480,1,Semiurban,Y
+Male,Yes,2,Graduate,No,1943,1583,160,360,1,Urban,Y
+Male,No,0,Graduate,No,4102,1580,141,180,1,Urban,Y
+Male,Yes,1,Not Graduate,No,9757,187,275,240,1,Semiurban,Y
+Female,Yes,3+,Graduate,No,5496,1082,97,360,1,Semiurban,Y
+Male,Yes,1,Graduate,No,2858,3838,132,360,1,Rural,Y
+Male,No,3+,Graduate,No,15300,3878,88,360,1,Rural,Y
+Male,No,0,Graduate,No,6351,209,197,360,1,Urban,Y
+Male,No,1,Graduate,No,13308,190,234,120,1,Urban,Y
+Female,Yes,0,Graduate,No,3749,609,233,360,0,Rural,Y
+Male,No,2,Not Graduate,No,1498,4155,211,360,1,Rural,Y
+Male,No,3+,Graduate,No,271,276,140,240,1,Rural,Y
+Male,Yes,0,Graduate,No,6474,2545,131,360,1,Urban,Y
+Male,No,1,Graduate,No,646,213,66,240,1,Rural,Y
+Female,Yes,0,Graduate,No,1803,1951,251,120,1,Urban,Y
+Male,Yes,1,Graduate,No,3801,880,173,240,0,Semiurban,Y
+Male,Yes,1,Not Graduate,Yes,4155,3110,125,240,1,Rural,N
+Female,Yes,3+,Graduate,No,4588,532,216,300,1,Urban,Y
+Female,Yes,1,Graduate,No,909,2038,101,300,1,Rural,Y
+Female,Yes,0,Graduate,No,2388,537,170,360,1,Urban,Y
+Male,Yes,0,Graduate,No,4801,2501,141,300,1,Rural,Y
+Male,No,0,Not Graduate,No,17502,4137,181,240,1,Urban,Y
+Female,Yes,0,Graduate,No,6502,271,146,120,1,Rural,Y
+Male,Yes,0,Graduate,No,12794,4028,77,360,1,Urban,N
+Male,Yes,2,Graduate,No,7181,1800,153,300,1,Semiurban,N
+Male,No,1,Not Graduate,No,4478,271,202,240,0,Semiurban,N
+Male,Yes,1,Graduate,No,1066,1115,148,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,5493,350,188,360,1,Urban,Y
+Male,No,2,Graduate,No,4882,2410,97,360,1,Semiurban,Y
+Female,Yes,2,Graduate,No,4612,2844,148,300,1,Urban,N
+Male,Yes,0,Graduate,No,3364,223,118,180,1,Semiurban,Y
+Male,Yes,2,Graduate,No,3760,1411,187,360,1,Urban,Y
+Male,No,1,Graduate,No,2035,3370,151,240,1,Rural,Y
+Male,Yes,0,Graduate,No,3662,5502,184,300,1,Urban,Y
+Female,No,1,Graduate,No,1100,1441,204,180,1,Urban,N
+Female,Yes,1,Graduate,No,8178,6002,184,360,1,Urban,Y
+Female,No,0,Graduate,No,1027,1534,163,180,1,Semiurban,Y
+Female,No,3+,Graduate,No,443,1002,100,360,1,Urban,Y
+Male,No,2,Graduate,No,2865,3770,149,360,1,Semiurban,Y
+Female,Yes,1,Not Graduate,Yes,5369,1358,123,300,1,Rural,Y
+Male,No,1,Graduate,No,2878,1276,132,360,1,Semiurban,Y
+Male,Yes,1,Graduate,Yes,1620,1347,131,360,1,Semiurban,Y
+Male,Yes,1,Graduate,No,4084,3751,101,360,1,Urban,Y
+Male,Yes,1,Not Graduate,No,2130,3566,52,300,1,Semiurban,Y
+Male,No,0,Graduate,No,13505,1033,116,360,1,Urban,Y
+Male,No,1,Graduate,No,12796,810,159,300,1,Rural,Y
+Female,No,2,Graduate,No,3489,1354,82,360,1,Urban,Y
+Male,Yes,1,Graduate,No,1986,1700,150,300,1,Semiurban,Y
+Male,Yes,0,Graduate,No,6680,544,245,300,1,Urban,Y
+Male,No,2,Graduate,Yes,187,3159,201,360,1,Rural,Y
+Male,Yes,0,Graduate,Yes,3219,1332,232,360,1,Urban,Y
+Female,Yes,0,Not Graduate,No,2049,813,169,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,12662,225,208,240,1,Urban,Y
+Female,Yes,0,Graduate,No,60,545,113,300,1,Semiurban,Y
+Female,Yes,2,Graduate,No,4023,5962,117,480,0,Rural,Y
+Male,Yes,1,Graduate,No,6748,727,20,360,1,Semiurban,N
+Male,Yes,0,Graduate,No,3318,369,209,360,1,Semiurban,N
+Female,Yes,2,Graduate,No,446,1234,227,120,1,Rural,Y
+Female,No,2,Graduate,No,17960,733,122,300,1,Semiurban,Y
+Female,Yes,2,Not Graduate,No,3649,71,137,360,1,Semiurban,Y
+Female,Yes,0,Not Graduate,No,4762,780,112,360,0,Semiurban,Y
+Male,Yes,1,Graduate,No,1349,1571,169,120,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,3303,1604,206,360,1,Urban,Y
+Male,No,2,Not Graduate,No,2803,881,62,360,1,Rural,Y
+Female,No,0,Graduate,No,389,1185,170,240,0,Semiurban,N
+Female,Yes,0,Not Graduate,No,561,6734,136,300,1,Urban,Y
+Male,Yes,1,Graduate,No,9084,947,155,240,1,Rural,Y
+Male,No,3+,Graduate,No,1370,597,172,360,1,Urban,N
+Male,No,1,Graduate,No,1084,558,140,180,1,Urban,Y
+Male,Yes,1,Graduate,Yes,3515,1224,144,240,1,Semiurban,Y
+Female,Yes,0,Graduate,Yes,7321,2850,139,360,1,Rural,Y
+Female,Yes,1,Graduate,No,319,461,198,180,1,Rural,Y
+Female,No,2,Graduate,No,4299,2470,170,240,1,Rural,Y
+Male,Yes,0,Graduate,Yes,634,42,161,300,1,Rural,Y
+Male,No,2,Graduate,No,185,1085,86,360,1,Urban,Y
+Female,Yes,3+,Not Graduate,No,270,2991,131,360,1,Urban,Y
+Female,Yes,0,Graduate,No,8983,827,194,300,1,Rural,Y
+Male,Yes,1,Not Graduate,No,627,1659,151,360,1,Urban,N
+Female,Yes,0,Graduate,No,231,458,182,360,1,Semiurban,Y
+Male,Yes,2,Graduate,No,2880,2709,238,180,1,Semiurban,N
+Male,Yes,1,Not Graduate,Yes,9289,107,201,240,1,Urban,N
+Male,Yes,1,Graduate,Yes,1521,3828,154,300,1,Rural,Y
+Male,No,2,Graduate,No,2738,441,124,300,0,Semiurban,N
+Male,Yes,0,Graduate,Yes,203,4149,22,360,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,2980,869,141,360,0,Rural,N
+Female,No,1,Graduate,No,4309,2565,133,300,1,Semiurban,Y
+Male,No,0,Not Graduate,No,4230,769,169,240,1,Urban,Y
+Male,No,1,Graduate,No,2020,4727,142,240,1,Semiurban,Y
+Female,No,2,Graduate,No,1895,270,133,360,1,Rural,Y
+Male,Yes,0,Graduate,No,563,393,61,300,1,Rural,Y
+Male,Yes,2,Graduate,No,2284,1358,103,360,0,Rural,Y
+Female,No,3+,Graduate,Yes,523,170,173,240,1,Semiurban,Y
+Male,Yes,0,Graduate,No,7274,436,235,360,1,Urban,Y
+Male,Yes,3+,Graduate,No,16947,5756,145,360,1,Rural,Y
+Male,No,0,Graduate,No,17545,7500,166,240,1,Rural,Y
+Male,Yes,0,Graduate,No,10015,944,197,300,1,Urban,Y
+Female,Yes,0,Graduate,Yes,4591,5135,109,480,1,Urban,Y
+Female,Yes,2,Graduate,Yes,6034,1574,168,300,1,Rural,Y
+Female,Yes,1,Graduate,No,1678,628,112,360,1,Rural,N
+Female,Yes,0,Not Graduate,No,4981,2424,193,180,1,Rural,Y
+Female,Yes,1,Graduate,No,3040,2151,157,360,1,Rural,Y
+Male,No,1,Graduate,No,3289,9042,164,180,1,Semiurban,Y
+Female,Yes,0,Graduate,Yes,7089,615,110,480,1,Semiurban,Y
+Male,Yes,2,Graduate,No,1655,2229,185,360,1,Semiurban,Y
+Female,No,2,Graduate,No,1913,106,254,360,1,Urban,Y
+Female,No,1,Graduate,No,12927,241,99,360,0,Semiurban,Y
+Male,No,3+,Graduate,No,289,7,133,360,0,Semiurban,N
+Male,No,1,Graduate,No,3324,15050,161,300,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,12197,3241,189,360,1,Semiurban,Y
+Male,Yes,1,Graduate,No,4712,3090,122,480,0,Semiurban,Y
+Female,Yes,1,Graduate,No,3952,1425,20,300,1,Urban,Y
+Female,Yes,0,Graduate,No,1436,713,217,360,1,Urban,Y
+Male,Yes,2,Not Graduate,No,2102,328,188,360,1,Urban,Y
+Male,Yes,1,Not Graduate,Yes,9554,670,62,360,1,Urban,Y
+Male,No,0,Not Graduate,No,4096,943,119,300,1,Rural,Y
+Male,Yes,0,Not Graduate,No,3615,2823,228,240,1,Urban,Y
+Male,Yes,1,Not Graduate,No,524,1551,222,120,1,Urban,Y
+Male,Yes,1,Graduate,No,80,161,196,240,1,Semiurban,Y
+Female,Yes,2,Graduate,No,16577,36,141,360,1,Semiurban,Y
+Male,Yes,2,Graduate,Yes,2365,215,154,300,1,Urban,Y
+Male,No,0,Graduate,No,4621,1056,143,300,1,Rural,Y
+Female,Yes,2,Graduate,No,415,5411,206,480,1,Rural,Y
+Male,Yes,0,Graduate,No,5746,2028,106,300,1,Urban,Y
+Female,Yes,2,Graduate,No,13483,3237,109,300,0,Urban,Y
+Female,No,2,Graduate,No,4286,1256,200,180,1,Rural,Y
+Male,Yes,1,Not Graduate,Yes,674,897,147,120,0,Rural,Y
+Male,Yes,2,Graduate,Yes,4358,229,218,360,1,Semiurban,N
+Male,Yes,0,Graduate,No,7269,4173,116,360,1,Urban,Y
+Male,Yes,1,Graduate,No,2607,3057,147,360,1,Semiurban,Y
+Male,No,2,Graduate,No,10594,368,103,180,1,Semiurban,Y
+Female,No,1,Not Graduate,Yes,5230,1435,150,360,1,Urban,Y
+Male,Yes,0,Graduate,No,11475,1336,76,240,1,Semiurban,Y
+Male,No,1,Not Graduate,No,4884,1962,125,240,1,Semiurban,N
+Male,No,2,Graduate,No,703,5844,78,120,1,Urban,Y
+Female,No,0,Graduate,Yes,1853,1733,184,180,1,Rural,Y
+Male,No,0,Graduate,Yes,1126,1554,185,300,1,Rural,Y
+Male,Yes,2,Graduate,No,11974,103,63,180,1,Urban,Y
+Male,Yes,2,Graduate,No,7143,129,216,480,1,Rural,Y
+Female,Yes,0,Graduate,No,5641,414,274,300,1,Urban,Y
+Male,No,0,Graduate,Yes,1790,66,152,180,1,Rural,Y
+Female,Yes,0,Not Graduate,No,1016,2720,117,240,1,Urban,Y
+Female,No,0,Graduate,No,7062,2569,291,360,1,Urban,Y
+Male,No,1,Not Graduate,No,3213,292,84,180,1,Semiurban,N
+Female,Yes,2,Graduate,No,1279,3616,151,360,1,Semiurban,Y
+Male,No,1,Graduate,No,4793,336,158,480,1,Rural,Y
+Female,Yes,1,Graduate,Yes,205,716,217,240,1,Urban,Y
+Female,Yes,0,Graduate,No,1973,572,167,300,1,Urban,Y
+Male,No,2,Graduate,No,3160,931,125,120,1,Semiurban,N
+Male,Yes,1,Graduate,No,800,587,102,360,0,Semiurban,N
+Female,No,3+,Graduate,No,20884,1342,132,300,1,Urban,Y
+Male,No,1,Not Graduate,No,1172,1046,99,240,1,Semiurban,Y
+Male,Yes,0,Graduate,Yes,698,8620,152,240,0,Rural,Y
+Male,Yes,1,Not Graduate,No,1137,115,121,360,1,Rural,Y
+Male,Yes,0,Graduate,Yes,7328,306,75,300,1,Rural,Y
+Female,Yes,1,Graduate,No,2771,108,212,240,1,Urban,Y
+Male,No,0,Graduate,No,4166,1966,125,360,0,Semiurban,N
+Male,Yes,0,Graduate,No,106,112,86,360,1,Urban,Y
+Male,Yes,2,Graduate,No,175,3621,141,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,2951,1434,153,180,1,Semiurban,Y
+Male,Yes,2,Graduate,No,8481,1497,62,360,1,Rural,Y
+Female,No,0,Graduate,No,10824,1649,166,360,1,Semiurban,Y
+Male,Yes,1,Not Graduate,No,453,374,97,180,1,Rural,Y
+Female,No,1,Not Graduate,No,3864,440,235,360,0,Rural,Y
+Male,Yes,1,Graduate,No,12222,767,176,300,1,Rural,Y
+Male,No,0,Graduate,No,2454,1800,130,360,1,Rural,N
+Male,Yes,0,Graduate,No,8847,471,112,180,1,Semiurban,Y
+Female,Yes,0,Graduate,No,717,247,144,360,1,Urban,Y
+Female,No,0,Graduate,No,13697,7020,180,300,1,Urban,Y
+Male,Yes,1,Graduate,Yes,6960,44,148,480,1,Urban,N
+Female,No,3+,Graduate,No,14179,3246,139,300,1,Semiurban,Y
+Female,Yes,2,Graduate,Yes,5644,3102,152,480,1,Semiurban,Y
+Male,Yes,2,Graduate,No,2258,705,119,360,0,Semiurban,Y
+Male,Yes,2,Not Graduate,No,13917,291,132,240,1,Rural,Y
+Male,No,1,Not Graduate,No,1611,314,45,360,1,Rural,Y
+Male,Yes,0,Graduate,No,2018,2390,198,480,1,Urban,Y
+Female,Yes,3+,Not Graduate,No,6033,2058,164,240,1,Urban,Y
+Female,Yes,1,Not Graduate,No,7247,3053,111,300,1,Semiurban,Y
+Female,Yes,1,Graduate,No,13253,5544,244,360,1,Urban,Y
+Male,Yes,0,Graduate,No,1145,2354,154,240,1,Rural,Y
+Male,No,1,Graduate,No,7997,338,98,120,1,Semiurban,Y
+Female,No,1,Not Graduate,Yes,6707,557,192,240,1,Semiurban,Y
+Female,No,2,Not Graduate,No,329,3692,169,240,1,Rural,Y
+Female,No,1,Graduate,No,2448,469,169,300,1,Rural,N
+Female,Yes,0,Graduate,No,1661,150,128,240,1,Urban,Y
+Female,No,3+,Graduate,No,1815,2429,172,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,20357,1030,136,360,1,Semiurban,Y
+Male,Yes,1,Graduate,Yes,5146,5052,177,180,1,Urban,Y
+Female,Yes,0,Not Graduate,No,6323,2101,54,360,1,Urban,Y
+Female,Yes,2,Graduate,Yes,18778,189,128,360,1,Semiurban,Y
+Male,No,3+,Not Graduate,No,2367,5907,236,480,0,Urban,N
+Male,Yes,0,Not Graduate,No,8093,598,111,120,0,Urban,Y
+Female,Yes,2,Graduate,No,2850,822,119,240,1,Semiurban,Y
+Male,Yes,0,Graduate,Yes,10183,1029,127,360,1,Rural,Y
+Male,No,3+,Graduate,Yes,996,105,89,360,1,Urban,Y
+Male,Yes,2,Graduate,Yes,14752,1372,39,360,1,Urban,Y
+Female,Yes,2,Graduate,No,1234,263,138,360,1,Rural,Y
+Female,Yes,0,Graduate,No,1974,1024,156,180,0,Urban,Y
+Male,No,3+,Graduate,No,7056,863,147,360,1,Rural,Y
+Female,Yes,2,Graduate,No,2502,2964,142,240,0,Semiurban,Y
+Male,Yes,0,Graduate,No,4685,3250,152,240,1,Urban,Y
+Male,Yes,2,Graduate,Yes,2940,333,201,360,1,Urban,N
+Female,Yes,0,Graduate,No,6781,913,140,180,0,Urban,Y
+Female,Yes,2,Graduate,No,1295,934,121,300,1,Urban,Y
+Female,Yes,0,Graduate,No,301,328,135,360,1,Urban,Y
+Female,No,2,Graduate,No,1782,3203,178,240,1,Semiurban,Y
+Male,Yes,1,Graduate,No,3215,2456,220,480,1,Urban,Y
+Male,Yes,0,Graduate,No,919,422,118,480,1,Semiurban,Y
+Male,No,0,Graduate,No,2190,913,154,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,2553,223,166,240,1,Urban,Y
+Male,Yes,1,Not Graduate,No,295,1978,100,300,1,Urban,N
+Female,Yes,0,Graduate,No,4377,258,151,300,1,Urban,Y
+Male,Yes,1,Graduate,No,10785,8528,76,300,1,Urban,Y
+Female,No,0,Graduate,No,822,3034,61,240,1,Semiurban,Y
+Female,Yes,0,Graduate,No,4554,989,168,480,1,Urban,Y
+Female,No,2,Graduate,No,5464,1728,130,240,1,Rural,Y
+Male,Yes,0,Graduate,No,2717,4845,160,360,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,6038,1615,149,120,0,Semiurban,N
+Male,Yes,2,Graduate,No,2644,383,101,360,1,Semiurban,Y
+Male,Yes,1,Graduate,Yes,3512,951,147,360,1,Semiurban,Y
+Female,Yes,1,Graduate,No,36,3704,88,240,1,Urban,Y
+Male,No,2,Graduate,Yes,5883,2066,219,240,1,Urban,Y
+Male,Yes,0,Not Graduate,No,5413,2103,82,360,1,Semiurban,Y
+Female,No,0,Graduate,No,195,4032,140,360,0,Urban,N
+Male,Yes,0,Graduate,No,2296,4488,97,360,1,Semiurban,Y
+Female,No,2,Graduate,No,19323,5046,178,300,1,Semiurban,Y
+Female,No,0,Graduate,No,2729,199,133,240,1,Semiurban,Y
+Female,No,1,Graduate,No,3485,1571,124,480,1,Semiurban,Y
+Male,No,3+,Graduate,No,12035,2698,192,360,1,Semiurban,Y
+Male,No,2,Graduate,No,6316,2828,151,300,1,Semiurban,Y
+Female,Yes,1,Graduate,No,4362,1866,175,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,7992,364,100,300,1,Semiurban,Y
+Female,Yes,2,Graduate,Yes,9988,3193,79,300,1,Semiurban,Y
+Female,No,1,Not Graduate,No,3052,2546,155,240,1,Rural,Y
+Female,Yes,0,Graduate,No,3222,180,134,300,1,Semiurban,Y
+Male,No,0,Graduate,No,2439,1246,181,360,0,Semiurban,Y
+Male,Yes,3+,Graduate,Yes,17011,382,146,120,1,Rural,Y
+Female,Yes,1,Graduate,No,5972,823,160,300,1,Semiurban,Y
+Male,Yes,2,Graduate,No,434,36,68,360,0,Urban,Y
+Male,Yes,2,Graduate,No,9937,1022,244,360,1,Rural,Y
+Male,Yes,1,Graduate,No,3275,1596,141,360,1,Urban,Y
+Female,Yes,1,Graduate,No,356,1932,184,360,0,Semiurban,N
+Female,Yes,1,Graduate,No,3989,2178,108,120,1,Rural,Y
+Male,Yes,0,Graduate,No,2699,3619,165,360,1,Rural,N
+Male,Yes,1,Not Graduate,No,10508,485,84,360,1,Urban,Y
+Female,Yes,2,Graduate,Yes,1140,256,172,360,1,Semiurban,Y
+Female,No,1,Graduate,No,8756,3814,132,300,1,Semiurban,Y
+Male,Yes,2,Graduate,No,4078,340,151,180,1,Urban,N
+Male,Yes,1,Graduate,No,280,7358,184,360,1,Urban,Y
+Female,Yes,1,Not Graduate,No,17850,3697,88,300,0,Semiurban,Y
+Female,Yes,1,Graduate,No,3593,1389,115,360,1,Semiurban,Y
+Female,Yes,1,Graduate,No,1718,7971,172,360,1,Urban,Y
+Female,Yes,2,Graduate,Yes,3168,204,254,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,9754,722,143,360,1,Semiurban,Y
+Male,Yes,1,Graduate,No,1818,2033,179,360,1,Rural,Y
+Female,Yes,0,Graduate,No,1070,861,144,300,1,Rural,Y
+Female,No,0,Graduate,No,690,5272,247,360,0,Semiurban,Y
+Female,No,1,Graduate,No,1768,135,62,360,0,Rural,Y
+Female,Yes,1,Graduate,No,7571,1594,154,300,0,Rural,N
+Male,Yes,3+,Not Graduate,No,3189,1787,68,300,1,Urban,Y
+Male,Yes,1,Not Graduate,No,1290,2115,24,180,1,Urban,N
+Female,Yes,2,Not Graduate,No,908,590,164,360,0,Semiurban,Y
+Female,No,1,Graduate,No,2022,906,156,180,1,Semiurban,Y
+Female,Yes,1,Graduate,Yes,14060,3711,135,360,1,Semiurban,Y
+Female,Yes,0,Not Graduate,No,2100,433,144,300,1,Semiurban,Y
+Female,Yes,0,Graduate,No,22166,3507,304,300,1,Semiurban,Y
+Male,No,0,Graduate,No,3320,1654,137,360,1,Semiurban,Y
+Male,Yes,1,Not Graduate,No,987,2872,175,180,0,Urban,N
+Male,Yes,0,Not Graduate,Yes,11088,2500,117,360,1,Rural,Y
+Male,Yes,0,Graduate,No,3084,465,164,360,1,Urban,Y
+Male,Yes,0,Graduate,No,6183,1682,138,360,1,Rural,Y
+Male,Yes,3+,Graduate,No,20586,4045,129,240,1,Urban,Y
+Male,Yes,0,Not Graduate,No,257,1131,240,360,0,Rural,Y
+Male,Yes,1,Not Graduate,No,508,6797,208,360,1,Urban,Y
+Male,Yes,0,Graduate,No,6372,1203,156,360,1,Urban,Y
+Male,Yes,1,Graduate,No,1655,308,34,300,1,Urban,Y
+Male,Yes,0,Not Graduate,Yes,1018,986,131,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,200,6060,285,360,1,Rural,Y
+Male,Yes,1,Graduate,No,110,770,138,360,1,Semiurban,Y
+Male,No,0,Not Graduate,No,7446,4051,205,300,1,Rural,Y
+Male,Yes,0,Graduate,No,721,4261,222,240,1,Semiurban,Y
+Female,Yes,0,Graduate,Yes,3152,862,160,300,1,Semiurban,Y
+Male,Yes,0,Graduate,No,4655,173,107,300,0,Rural,Y
+Female,Yes,0,Graduate,No,2796,2578,28,240,0,Urban,Y
+Male,No,0,Not Graduate,No,137,746,184,240,0,Urban,Y
+Male,Yes,2,Graduate,Yes,7650,3055,109,360,1,Rural,Y
+Male,No,1,Not Graduate,No,52,1169,158,180,1,Rural,Y
+Male,Yes,1,Graduate,No,7175,1328,87,360,1,Rural,Y
+Female,Yes,0,Graduate,No,11188,3009,136,240,1,Rural,N
+Female,No,3+,Graduate,No,2835,963,151,300,0,Urban,Y
+Female,No,0,Graduate,Yes,3834,1170,163,180,1,Rural,Y
+Male,No,0,Graduate,No,3240,943,94,240,1,Semiurban,Y
+Male,No,1,Graduate,No,2464,915,209,360,1,Rural,Y
+Female,Yes,0,Graduate,No,10920,1492,120,360,0,Semiurban,Y
+Male,No,0,Graduate,No,11218,3308,66,240,0,Semiurban,Y
+Male,Yes,1,Graduate,No,2045,898,144,300,1,Semiurban,Y
+Male,No,2,Graduate,No,4773,1485,151,300,1,Urban,Y
+Male,Yes,1,Graduate,Yes,13080,2221,158,360,1,Urban,Y
+Female,No,2,Graduate,No,16358,627,218,360,1,Rural,Y
+Female,Yes,3+,Graduate,No,3556,650,138,360,1,Rural,Y
+Female,Yes,0,Graduate,No,3014,5418,144,360,1,Urban,Y
+Male,Yes,0,Graduate,No,1633,2571,94,360,1,Rural,Y
+Male,No,0,Graduate,Yes,15955,1721,191,120,0,Semiurban,N
+Male,Yes,1,Not Graduate,No,770,2086,159,300,1,Semiurban,Y
+Male,Yes,1,Not Graduate,No,4335,59,128,360,1,Urban,Y
+Male,Yes,3+,Graduate,No,1660,1925,54,360,1,Rural,Y
+Female,Yes,2,Graduate,No,1635,1424,222,360,1,Semiurban,Y
+Female,No,1,Not Graduate,No,2595,1578,88,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,33597,890,120,300,1,Semiurban,Y
+Female,No,2,Not Graduate,No,282,169,167,360,1,Urban,Y
+Female,Yes,3+,Not Graduate,No,4320,429,90,360,1,Semiurban,Y
+Male,Yes,2,Not Graduate,Yes,430,6021,75,300,0,Urban,Y
+Female,No,0,Graduate,No,839,1050,43,360,1,Urban,Y
+Male,Yes,1,Graduate,Yes,2895,1257,186,360,1,Semiurban,N
+Male,Yes,0,Graduate,No,3571,108,122,240,0,Rural,N
+Male,Yes,0,Graduate,No,1497,76,296,300,1,Semiurban,Y
+Female,No,0,Graduate,Yes,1902,2525,100,300,1,Urban,Y
+Male,Yes,1,Graduate,No,454,1544,103,360,1,Semiurban,Y
+Male,No,1,Graduate,No,1806,1421,121,240,1,Rural,Y
+Male,No,0,Not Graduate,No,16989,557,162,360,1,Semiurban,Y
+Male,Yes,0,Graduate,Yes,14475,2731,126,360,1,Rural,Y
+Female,Yes,1,Not Graduate,No,2038,368,180,300,1,Semiurban,N
+Female,Yes,0,Not Graduate,No,4229,421,101,360,1,Rural,Y
+Male,Yes,0,Graduate,No,12017,1235,80,480,1,Urban,Y
+Male,Yes,1,Graduate,No,31,674,60,180,0,Urban,N
+Male,Yes,2,Not Graduate,No,8321,568,38,240,1,Urban,Y
+Male,Yes,0,Graduate,Yes,14818,2072,124,480,1,Semiurban,Y
+Male,No,0,Graduate,No,478,2105,134,480,1,Rural,Y
+Male,No,0,Graduate,No,880,3480,118,180,1,Rural,Y
+Male,No,3+,Graduate,No,16188,1081,212,120,1,Urban,N
+Female,Yes,1,Graduate,No,3855,151,211,240,1,Urban,Y
+Female,Yes,1,Graduate,No,71,639,133,480,1,Urban,Y
+Male,Yes,0,Graduate,No,1489,7824,60,240,0,Urban,Y
+Male,No,1,Graduate,No,2988,1813,121,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,5903,2473,120,360,1,Rural,Y
+Male,No,1,Graduate,No,6605,14,117,120,1,Rural,Y
+Female,Yes,3+,Graduate,No,26931,1460,115,360,1,Semiurban,Y
+Female,Yes,1,Not Graduate,No,1694,76,117,240,1,Rural,Y
+Male,No,2,Graduate,No,3863,1684,130,360,1,Semiurban,Y
+Male,Yes,2,Graduate,No,3810,5070,118,240,0,Urban,Y
+Female,No,0,Graduate,No,2601,6910,160,360,1,Semiurban,Y
+Male,No,3+,Graduate,No,926,1555,168,360,1,Semiurban,N
+Male,Yes,0,Graduate,No,18961,1225,104,240,1,Semiurban,N
+Female,Yes,1,Not Graduate,No,9597,5801,213,120,0,Urban,Y
+Male,Yes,0,Graduate,No,3449,2239,100,300,1,Urban,Y
+Male,No,0,Not Graduate,Yes,4622,134,69,240,1,Urban,Y
+Female,Yes,1,Graduate,No,1289,1253,169,360,1,Rural,Y
+Male,Yes,0,Graduate,No,3923,549,109,360,1,Semiurban,Y
+Male,Yes,1,Graduate,No,5936,1269,166,300,0,Rural,Y
+Female,No,1,Not Graduate,No,3619,1215,29,360,1,Rural,Y
+Male,Yes,0,Graduate,No,23170,1745,219,360,0,Urban,Y
+Female,No,0,Graduate,Yes,4725,882,183,360,1,Semiurban,N
+Female,No,1,Graduate,No,2317,358,74,300,1,Rural,Y
+Male,Yes,0,Graduate,No,7395,1401,76,240,1,Semiurban,Y
+Male,Yes,2,Graduate,No,934,3546,233,240,0,Rural,Y
+Male,No,1,Graduate,No,2426,2181,113,360,1,Urban,Y
+Male,Yes,2,Graduate,No,2130,826,108,300,1,Urban,Y
+Male,No,1,Graduate,Yes,2826,5482,36,300,1,Rural,Y
+Female,Yes,1,Graduate,No,7611,4865,132,180,1,Rural,Y
+Male,Yes,1,Not Graduate,No,3309,469,138,360,1,Rural,Y
+Male,No,0,Not Graduate,No,7899,80,185,240,1,Semiurban,Y
+Female,Yes,0,Not Graduate,No,4295,2704,80,240,1,Rural,Y
+Male,Yes,2,Graduate,No,2093,3515,73,300,1,Rural,Y
+Female,Yes,1,Graduate,Yes,8303,6875,172,240,1,Rural,Y
+Male,Yes,2,Graduate,No,1360,4411,200,360,1,Semiurban,Y
+Male,Yes,2,Graduate,Yes,1270,1835,71,300,1,Urban,Y
+Female,Yes,2,Graduate,Yes,3510,1510,204,300,1,Rural,Y
+Female,No,3+,Graduate,No,1511,56,151,360,1,Semiurban,N
+Female,Yes,1,Graduate,No,45,566,204,240,1,Semiurban,N
+Female,Yes,0,Graduate,No,5224,1230,146,240,1,Semiurban,Y
+Female,Yes,1,Not Graduate,No,3577,1980,23,360,1,Semiurban,Y
+Male,No,0,Graduate,No,2948,1629,142,300,1,Semiurban,Y
+Male,Yes,1,Graduate,Yes,17051,2714,203,300,1,Urban,N
+Female,No,2,Graduate,Yes,4233,656,105,120,1,Rural,Y
+Female,Yes,1,Graduate,Yes,9954,1664,130,300,0,Semiurban,Y
+Female,Yes,0,Graduate,No,750,184,141,360,1,Semiurban,Y
+Male,Yes,0,Not Graduate,No,4210,1067,20,360,1,Urban,Y
+Male,Yes,1,Not Graduate,No,10123,2773,233,360,0,Urban,Y
+Female,Yes,0,Graduate,Yes,4374,2364,104,240,1,Urban,Y
+Male,Yes,2,Not Graduate,No,6329,9343,175,240,1,Semiurban,Y
+Female,No,0,Not Graduate,No,2326,651,145,360,1,Urban,Y
+Female,Yes,0,Not Graduate,No,485,1379,212,360,1,Rural,Y
+Male,Yes,0,Not Graduate,Yes,3061,799,170,180,1,Urban,Y
+Female,Yes,1,Graduate,No,2508,1161,138,300,1,Urban,Y
+Female,No,1,Graduate,Yes,10089,3889,105,240,1,Urban,N
+Male,Yes,0,Graduate,Yes,1398,2305,189,180,1,Urban,Y
+Female,Yes,0,Graduate,No,17016,4281,56,300,1,Rural,Y
+Male,Yes,1,Not Graduate,No,15866,455,182,180,1,Rural,Y
+Female,No,0,Graduate,No,1422,4132,95,360,0,Semiurban,Y
+Male,Yes,1,Graduate,No,2138,123,212,360,1,Urban,Y
+Female,Yes,1,Not Graduate,No,11295,4389,158,180,1,Urban,Y
+Male,No,0,Not Graduate,No,16999,798,182,120,1,Semiurban,Y
+Male,No,0,Not Graduate,Yes,2929,755,154,360,0,Rural,Y
+Female,Yes,3+,Graduate,No,1935,1435,62,240,1,Urban,Y
+Male,No,1,Graduate,No,3733,5649,106,360,1,Semiurban,Y
+Male,Yes,1,Graduate,Yes,5820,97,183,300,1,Semiurban,N
+Female,Yes,0,Graduate,Yes,1597,868,158,360,1,Urban,Y
+Female,Yes,1,Graduate,No,6668,3883,209,300,1,Semiurban,Y
+Male,Yes,0,Graduate,No,265,1008,170,180,1,Urban,Y
+Female,Yes,1,Not Graduate,No,252,444,101,240,1,Rural,Y
+Male,No,3+,Graduate,No,2441,1106,110,240,1,Urban,Y
+Male,Yes,0,Graduate,No,2180,974,155,300,1,Semiurban,Y
+Male,Yes,0,Graduate,Yes,1896,4940,34,360,1,Urban,Y
+Female,Yes,0,Graduate,No,3376,2870,233,240,1,Rural,Y
+Female,No,0,Graduate,No,1933,1406,172,120,1,Urban,N
+Female,Yes,0,Not Graduate,Yes,1067,8908,211,360,1,Rural,Y
+Female,Yes,0,Graduate,No,1851,1252,70,360,1,Rural,Y
+Male,Yes,2,Not Graduate,No,18425,120,212,480,1,Rural,Y
+Male,Yes,1,Graduate,No,2647,608,261,360,1,Semiurban,N
+Male,No,0,Not Graduate,No,2941,1145,83,300,1,Semiurban,N
+Male,No,3+,Graduate,No,4296,341,188,360,1,Urban,Y
+Male,Yes,0,Graduate,No,20473,5896,150,360,1,Urban,Y
+Female,No,3+,Graduate,Yes,1382,2912,72,360,1,Semiurban,Y
+Male,Yes,0,Not Graduate,No,5717,624,174,300,1,Urban,Y
+Male,No,2,Graduate,No,6293,1787,191,240,1,Rural,Y
+Male,Yes,1,Graduate,No,4673,2556,119,240,1,Urban,Y
+Female,Yes,2,Not Graduate,No,463,5669,208,360,1,Semiurban,Y
+Female,Yes,3+,Not Graduate,No,5648,4267,66,360,0,Semiurban,N
+Male,Yes,0,Graduate,No,331,1448,75,360,1,Semiurban,N
+Male,Yes,3+,Graduate,Yes,4533,2980,156,180,1,Semiurban,Y
+Female,Yes,0,Graduate,No,6727,1651,151,360,1,Urban,Y
+Male,Yes,0,Graduate,No,1184,1609,114,360,1,Semiurban,Y
+Female,No,0,Graduate,No,9213,243,190,240,1,Urban,Y
+Female,Yes,1,Not Graduate,No,154,269,176,360,1,Rural,Y
+Male,Yes,0,Not Graduate,No,9283,1508,192,300,1,Rural,Y
+Male,No,1,Graduate,No,3083,626,143,360,1,Rural,Y
+Female,Yes,1,Graduate,No,1226,42,180,360,1,Urban,Y
+Male,Yes,2,Graduate,No,718,2566,127,360,1,Urban,Y
+Male,Yes,2,Not Graduate,No,15320,66,252,360,1,Urban,Y
+Female,No,1,Not Graduate,No,377,1809,109,360,1,Urban,Y
+Female,Yes,0,Graduate,No,1110,1549,255,300,1,Urban,Y
+Female,Yes,0,Not Graduate,No,2137,6935,151,300,1,Semiurban,Y
+Female,No,0,Graduate,No,4841,1324,81,360,1,Urban,Y
+Male,No,0,Graduate,No,3935,131,218,240,1,Semiurban,Y
+Male,Yes,0,Graduate,No,671,1604,156,300,1,Rural,Y
+Female,Yes,0,Graduate,No,1710,3678,192,360,0,Semiurban,Y
+Male,Yes,3+,Graduate,No,1363,11520,211,360,1,Urban,Y
+Male,No,1,Graduate,No,1201,1125,166,300,1,Urban,Y
+Female,Yes,0,Graduate,No,2647,772,120,240,1,Semiurban,Y
+Male,Yes,1,Not Graduate,No,6087,4742,198,300,1,Urban,Y
+Male,No,0,Graduate,Yes,1226,424,150,240,0,Semiurban,Y
+Male,Yes,1,Graduate,No,2283,1911,184,240,0,Urban,Y
+Male,Yes,1,Graduate,Yes,2479,1040,42,360,1,Rural,Y
+Male,Yes,1,Graduate,No,18744,83,172,240,1,Rural,Y
+Male,Yes,1,Graduate,No,15468,853,118,300,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,8050,616,232,300,1,Urban,Y
+Female,Yes,2,Graduate,No,1383,2317,181,480,1,Urban,Y
+Female,Yes,1,Graduate,No,352,5943,161,300,1,Rural,Y
+Male,Yes,1,Graduate,Yes,1905,624,174,180,0,Semiurban,Y
+Female,No,1,Graduate,No,1551,3336,100,180,1,Urban,Y
+Male,Yes,0,Graduate,No,3525,113,231,360,1,Urban,Y
+Male,No,0,Graduate,Yes,7519,1544,249,360,0,Urban,Y
+Female,Yes,0,Graduate,No,9771,146,169,300,0,Rural,Y
+Male,No,1,Not Graduate,No,9317,5437,229,300,1,Urban,Y
+Female,No,1,Graduate,No,2228,2907,121,180,1,Semiurban,N
+Male,Yes,0,Graduate,No,5811,2145,110,360,1,Semiurban,Y
+Female,No,3+,Not Graduate,No,1875,3473,152,360,1,Semiurban,Y
+Male,No,3+,Graduate,No,314,2085,171,180,1,Rural,Y
+Female,Yes,2,Graduate,No,6046,6943,130,180,1,Rural,Y
+Male,Yes,1,Not Graduate,No,49,2503,176,180,0,Semiurban,Y
+Female,Yes,2,Not Graduate,No,2631,5171,165,180,1,Urban,Y
+Male,No,0,Not Graduate,No,1997,1456,100,360,1,Semiurban,Y
+Male,No,2,Graduate,No,5910,249,175,240,0,Semiurban,N
+Female,No,0,Graduate,No,7267,1502,193,240,1,Semiurban,Y
+Male,Yes,2,Graduate,No,1812,271,158,240,1,Semiurban,Y
+Female,No,0,Graduate,No,8346,1795,207,480,1,Urban,Y
+Female,Yes,2,Graduate,No,1740,1317,89,360,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,2955,1948,173,240,1,Urban,Y
+Female,Yes,0,Not Graduate,No,6491,20,91,300,1,Rural,Y
+Male,Yes,1,Graduate,No,5903,433,94,240,1,Urban,N
+Female,Yes,3+,Graduate,No,21857,1351,118,300,1,Semiurban,Y
+Male,Yes,1,Graduate,Yes,1275,6011,102,120,1,Urban,Y
+Male,Yes,2,Graduate,No,5428,967,122,360,0,Semiurban,Y
+Female,Yes,1,Graduate,No,4703,1104,139,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,12331,2508,191,360,1,Urban,Y
+Male,Yes,0,Graduate,No,850,1851,133,240,1,Rural,Y
+Female,Yes,0,Graduate,No,6967,710,70,360,1,Semiurban,Y
+Male,Yes,2,Not Graduate,No,4199,1058,207,360,1,Semiurban,Y
+Male,Yes,0,Not Graduate,No,1605,491,108,180,1,Urban,Y
+Male,Yes,1,Graduate,No,3216,6764,147,300,1,Semiurban,Y
+Male,Yes,1,Graduate,No,2030,279,172,240,1,Semiurban,Y
+Male,Yes,1,Not Graduate,No,4329,929,159,240,1,Semiurban,Y
+Male,Yes,2,Not Graduate,Yes,10991,52,204,240,1,Semiurban,Y
+Female,Yes,3+,Graduate,No,4211,501,173,360,1,Semiurban,Y
+Female,No,1,Graduate,No,4994,3032,106,300,1,Urban,Y
+Female,Yes,2,Graduate,No,3656,449,258,360,1,Urban,N
+Male,Yes,2,Not Graduate,No,262,166,159,180,1,Urban,Y
+Male,Yes,1,Not Graduate,No,1325,1286,142,480,1,Urban,Y
+Female,Yes,3+,Graduate,Yes,3386,20,198,240,1,Semiurban,Y
+Female,Yes,0,Not Graduate,No,1857,177,162,360,1,Rural,Y
+Male,Yes,0,Graduate,No,1003,3296,169,300,1,Urban,Y
+Female,Yes,2,Not Graduate,No,3507,2952,274,180,1,Rural,Y
+Female,Yes,1,Graduate,Yes,1949,4933,136,360,1,Semiurban,Y
+Female,Yes,2,Not Graduate,No,1492,3855,134,300,1,Rural,Y
+Female,No,2,Graduate,No,3117,2298,155,360,1,Semiurban,Y
+Female,No,0,Graduate,No,715,107,203,360,1,Semiurban,Y
+Male,No,2,Graduate,No,13137,3054,74,300,1,Urban,Y
+Female,No,1,Not Graduate,Yes,10113,3735,51,300,0,Urban,N
+Female,Yes,1,Not Graduate,No,6148,3209,120,360,1,Urban,Y
+Male,Yes,1,Not Graduate,No,561,1420,68,180,1,Semiurban,Y
+Male,Yes,3+,Not Graduate,No,7477,530,128,360,0,Urban,Y
+Male,Yes,0,Graduate,No,8250,3732,175,360,1,Rural,Y
+Female,No,1,Graduate,No,7300,2597,105,180,1,Urban,Y
+Female,Yes,1,Graduate,No,604,7901,78,180,0,Rural,N
+Male,No,2,Graduate,Yes,5162,338,153,360,1,Urban,Y
+Male,Yes,1,Graduate,No,8988,511,193,300,1,Urban,Y
+Male,No,0,Graduate,No,4306,476,65,300,1,Urban,Y
+Female,Yes,0,Graduate,No,5198,3145,191,180,1,Semiurban,Y
+Female,Yes,0,Graduate,No,3065,413,190,360,1,Urban,Y
+Female,Yes,2,Graduate,No,3761,137,197,180,1,Rural,Y
+Male,Yes,0,Graduate,No,174,13087,210,300,1,Urban,Y
+Male,Yes,0,Not Graduate,No,5093,50,260,360,1,Urban,Y
+Male,Yes,3+,Not Graduate,No,424,3606,132,240,1,Rural,Y
+Male,No,0,Not Graduate,No,2854,909,155,300,0,Urban,Y
+Female,Yes,3+,Graduate,No,1731,3685,129,480,1,Rural,N
+Female,Yes,1,Graduate,No,3941,1617,150,360,1,Rural,N
+Female,Yes,2,Not Graduate,No,715,4638,226,360,1,Urban,Y
+Female,No,0,Graduate,No,5882,5212,82,300,1,Urban,Y
+Male,Yes,0,Graduate,No,7924,18,106,360,1,Urban,Y
+Female,Yes,2,Graduate,No,891,156,218,120,1,Rural,Y
+Female,Yes,2,Graduate,No,550,576,201,180,1,Semiurban,Y
+Female,Yes,2,Graduate,No,786,2213,131,240,0,Semiurban,N
+Male,Yes,0,Graduate,No,10483,4383,192,300,1,Rural,N
+Male,Yes,2,Graduate,Yes,3755,1232,167,360,1,Urban,Y
+Male,Yes,2,Graduate,Yes,3148,1867,225,300,1,Rural,Y
+Female,No,1,Graduate,No,564,417,153,360,1,Semiurban,Y
+Female,Yes,2,Not Graduate,No,5242,3269,201,360,1,Semiurban,Y
+Male,Yes,2,Graduate,No,10124,6842,282,360,1,Rural,Y
+Female,Yes,1,Graduate,No,8806,625,179,300,1,Semiurban,Y
+Female,No,0,Not Graduate,No,4918,1365,152,360,1,Urban,Y
+Male,Yes,1,Graduate,No,391,180,186,300,1,Semiurban,Y
+Male,No,0,Graduate,Yes,596,1638,131,180,1,Semiurban,N
+Female,Yes,1,Graduate,No,252,1397,269,480,1,Urban,Y
+Male,Yes,1,Graduate,No,1488,311,159,180,1,Rural,Y
+Female,Yes,0,Graduate,No,728,1167,136,180,1,Urban,Y
+Male,No,0,Not Graduate,No,1505,813,108,360,1,Semiurban,Y
+Female,Yes,0,Graduate,Yes,2431,1475,204,300,1,Semiurban,Y
+Male,No,2,Graduate,No,14322,1762,193,360,1,Urban,Y
+Male,No,3+,Graduate,No,4712,17,125,300,1,Rural,N
+Female,Yes,0,Graduate,No,9008,2862,178,300,1,Rural,Y
+Male,Yes,3+,Graduate,No,6195,2496,74,240,1,Semiurban,Y
+Male,Yes,1,Graduate,No,596,912,159,300,1,Urban,Y
+Male,Yes,0,Graduate,No,6657,108,172,300,1,Urban,Y
+Female,No,0,Graduate,No,1608,2812,235,360,1,Urban,Y
+Female,No,1,Graduate,No,5095,6209,111,360,1,Urban,N
+Female,Yes,2,Graduate,No,2084,549,86,360,0,Semiurban,Y
+Male,Yes,2,Not Graduate,No,30314,781,105,120,0,Rural,Y
+Male,No,0,Graduate,No,1529,406,83,360,1,Semiurban,Y
+Male,Yes,0,Graduate,Yes,1636,1720,216,360,1,Rural,Y
+Male,No,1,Graduate,No,13344,336,227,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,124,880,166,120,1,Semiurban,Y
+Male,Yes,0,Graduate,No,5964,2388,211,360,1,Rural,Y
+Male,Yes,0,Graduate,No,6460,1642,156,360,1,Semiurban,Y
+Female,Yes,2,Not Graduate,Yes,9050,977,145,240,1,Rural,Y
+Male,Yes,3+,Not Graduate,No,18333,1090,133,360,1,Urban,Y
+Male,Yes,1,Graduate,No,18566,1651,134,120,0,Urban,N
+Female,Yes,3+,Graduate,No,337,11,72,360,1,Rural,Y
+Male,No,0,Not Graduate,No,8625,163,163,360,1,Semiurban,N
+Female,No,1,Not Graduate,No,5196,4261,147,360,1,Rural,Y
+Female,Yes,0,Not Graduate,No,5211,162,187,300,1,Rural,Y
+Female,Yes,1,Graduate,No,686,2453,154,120,1,Urban,N
+Male,Yes,3+,Graduate,No,5251,5052,141,360,1,Semiurban,Y
+Female,Yes,1,Graduate,No,20222,631,106,300,1,Urban,Y
+Male,Yes,0,Graduate,No,12141,925,153,120,0,Semiurban,Y
+Male,Yes,1,Graduate,No,2891,1682,186,360,1,Rural,Y
+Male,Yes,0,Graduate,No,203,4269,92,300,1,Urban,Y
+Female,Yes,2,Not Graduate,No,2249,5691,154,180,1,Semiurban,Y
+Male,Yes,1,Graduate,No,8754,2690,161,240,0,Semiurban,Y
+Male,Yes,1,Not Graduate,No,6044,181,114,180,1,Urban,Y
+Female,No,1,Graduate,No,3074,2212,120,360,1,Rural,Y
+Male,Yes,1,Graduate,No,283,1056,161,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,2783,1272,93,360,1,Rural,N
+Male,Yes,1,Not Graduate,Yes,3165,100,167,360,1,Urban,Y
+Male,Yes,0,Graduate,No,13194,424,105,360,1,Urban,Y
+Male,No,2,Graduate,No,5123,3126,203,360,1,Semiurban,N
+Male,Yes,2,Not Graduate,No,1867,1210,266,120,1,Urban,Y
+Female,No,2,Graduate,No,3725,718,106,360,0,Rural,Y
+Male,Yes,1,Graduate,No,341,969,176,300,1,Urban,Y
+Male,Yes,1,Graduate,No,17980,3853,113,360,1,Rural,Y
+Female,No,0,Graduate,No,2231,2764,202,360,1,Semiurban,Y
+Male,Yes,2,Graduate,No,3249,635,86,300,1,Urban,Y
+Female,Yes,0,Graduate,No,2194,249,174,360,1,Urban,N
+Male,Yes,1,Graduate,No,5736,580,106,180,1,Semiurban,Y
+Male,Yes,0,Graduate,No,5426,5070,139,360,1,Semiurban,Y
+Male,No,0,Graduate,No,6281,1742,98,120,1,Urban,Y
+Male,Yes,1,Graduate,No,1560,1524,191,360,1,Rural,Y
+Male,Yes,0,Graduate,No,1896,1814,108,180,0,Urban,N
+Male,Yes,2,Graduate,No,669,911,177,180,0,Semiurban,N
+Male,Yes,0,Graduate,No,5328,3291,132,300,1,Semiurban,Y
+Male,Yes,0,Graduate,No,203,1481,144,300,1,Urban,Y
+Male,Yes,1,Graduate,No,4552,248,157,240,1,Rural,Y
+Male,Yes,0,Not Graduate,No,10189,276,111,360,1,Urban,Y
+Male,No,0,Graduate,No,11074,1539,160,300,1,Urban,Y
+Male,Yes,2,Not Graduate,No,2980,5515,226,120,1,Urban,Y
+Female,Yes,0,Not Graduate,No,3074,737,111,300,1,Semiurban,Y
+Male,No,2,Graduate,No,400,4073,208,360,0,Semiurban,Y
+Female,Yes,0,Graduate,Yes,5554,2888,224,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,8609,569,109,360,1,Urban,Y
+Male,Yes,2,Not Graduate,Yes,1402,74,77,360,1,Urban,Y
+Female,Yes,0,Graduate,No,2734,214,165,300,1,Rural,Y
+Female,Yes,0,Graduate,No,9126,2607,122,180,1,Urban,Y
+Male,No,0,Graduate,No,10482,445,243,240,1,Rural,Y
+Male,Yes,0,Not Graduate,No,1393,928,151,360,0,Urban,Y
+Female,Yes,2,Not Graduate,No,3998,1393,109,480,1,Rural,Y
+Female,No,0,Graduate,No,1069,2585,92,300,1,Urban,Y
+Male,Yes,2,Graduate,No,537,240,204,120,1,Semiurban,Y
+Male,Yes,2,Graduate,No,12102,1042,121,180,0,Urban,Y
+Male,Yes,1,Graduate,Yes,8588,1327,152,300,1,Urban,Y
+Male,No,3+,Not Graduate,No,7136,1556,197,360,1,Urban,Y
+Female,Yes,0,Graduate,No,249,3411,125,180,1,Urban,Y
+Male,Yes,3+,Graduate,No,9280,376,147,360,0,Urban,Y
+Male,Yes,0,Graduate,No,2881,3298,149,300,0,Semiurban,Y
+Female,Yes,1,Not Graduate,No,2095,2361,184,360,1,Semiurban,N
+Male,Yes,1,Not Graduate,No,3953,1623,179,360,0,Rural,Y
+Male,Yes,0,Graduate,No,478,2404,138,360,1,Semiurban,Y
+Female,No,1,Not Graduate,Yes,7066,1062,153,360,1,Semiurban,Y
+Female,Yes,2,Graduate,No,4366,297,131,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,1032,2191,76,360,1,Semiurban,Y
+Male,No,0,Graduate,No,1042,1487,162,360,0,Semiurban,Y
+Male,No,2,Graduate,Yes,1018,2039,244,360,1,Rural,Y
+Male,Yes,1,Graduate,No,293,824,105,480,0,Urban,Y
+Male,Yes,3+,Not Graduate,No,4431,4747,111,360,1,Urban,N
+Male,Yes,2,Graduate,No,9173,1770,106,360,1,Semiurban,Y
+Male,No,3+,Graduate,No,88,178,186,360,0,Urban,Y
+Male,No,2,Graduate,No,251,1194,172,240,1,Rural,N
+Male,Yes,0,Graduate,No,4252,2824,142,180,1,Rural,N
+Male,No,0,Not Graduate,No,8560,3161,104,300,1,Urban,N
+Male,Yes,2,Graduate,No,1978,1364,154,360,0,Urban,N
+Male,Yes,1,Graduate,Yes,2150,4502,71,360,1,Semiurban,N
+Male,Yes,0,Not Graduate,No,4535,623,157,300,0,Semiurban,Y
+Female,No,0,Graduate,No,1602,1057,193,360,1,Urban,Y
+Male,Yes,3+,Graduate,No,134,4577,87,360,1,Semiurban,Y
+Female,No,1,Graduate,No,6644,4531,73,120,1,Semiurban,Y
+Female,No,1,Graduate,No,4912,2314,228,360,1,Urban,Y
+Male,No,1,Not Graduate,No,4346,3917,119,360,1,Urban,N
+Male,Yes,0,Not Graduate,Yes,6767,185,206,240,1,Rural,Y
+Male,Yes,0,Graduate,No,5623,4004,142,360,0,Urban,Y
+Male,Yes,0,Not Graduate,No,1152,773,141,360,1,Rural,Y
+Female,Yes,0,Graduate,No,2173,392,171,240,1,Semiurban,Y
+Male,Yes,2,Graduate,No,674,547,105,180,1,Semiurban,Y
+Male,No,1,Graduate,No,695,1082,156,480,1,Rural,Y
+Male,Yes,2,Graduate,No,5638,578,130,300,1,Rural,Y
+Male,Yes,2,Graduate,No,9780,772,83,240,0,Urban,Y
+Female,Yes,0,Graduate,No,16448,290,166,240,1,Urban,Y
+Male,Yes,1,Not Graduate,No,4948,702,136,360,0,Rural,Y
+Male,Yes,1,Graduate,No,1017,1698,142,360,1,Semiurban,Y
+Female,Yes,2,Graduate,No,558,1166,89,360,0,Urban,Y
+Female,No,0,Graduate,No,8379,851,229,180,1,Rural,Y
+Male,Yes,1,Graduate,No,4322,2744,193,360,1,Urban,Y
+Male,No,1,Graduate,No,4815,4479,198,300,1,Urban,Y
+Male,No,0,Graduate,No,7603,2827,134,300,1,Urban,Y
+Male,Yes,0,Not Graduate,Yes,6074,806,63,300,1,Semiurban,Y
+Male,No,1,Graduate,No,8992,2728,247,300,0,Semiurban,Y
+Male,Yes,2,Graduate,No,289,329,146,360,0,Urban,Y
+Male,No,0,Graduate,No,6882,279,112,360,1,Urban,Y
+Male,Yes,1,Graduate,No,9514,848,170,300,1,Urban,N
+Female,No,0,Graduate,No,1685,3297,208,360,1,Semiurban,Y
+Male,No,2,Graduate,No,5114,565,148,360,1,Urban,Y
+Male,No,0,Graduate,Yes,1885,130,213,360,1,Rural,Y
+Male,No,2,Graduate,No,15846,282,204,240,1,Urban,Y
+Female,Yes,0,Graduate,No,169,3914,96,360,1,Rural,Y
+Male,Yes,0,Graduate,Yes,4335,2009,116,240,1,Urban,N
+Male,Yes,0,Graduate,No,910,583,197,360,1,Rural,Y
+Female,Yes,0,Not Graduate,No,6227,1620,20,120,1,Urban,Y
+Female,Yes,1,Graduate,No,967,1499,142,360,1,Urban,Y
+Female,Yes,0,Not Graduate,No,1341,2130,78,300,1,Rural,Y
+Male,No,2,Graduate,No,3409,531,126,300,1,Rural,Y
+Male,Yes,0,Not Graduate,No,12315,3996,135,360,1,Semiurban,Y
+Female,No,0,Graduate,No,1189,740,132,360,1,Semiurban,N
+Female,Yes,0,Graduate,No,778,2369,122,360,1,Semiurban,Y
+Male,No,0,Graduate,No,7114,32,95,360,1,Rural,N
+Male,No,0,Not Graduate,Yes,3471,932,264,240,1,Urban,N
+Male,Yes,1,Graduate,Yes,12139,866,243,360,1,Semiurban,Y
+Female,Yes,1,Graduate,No,792,1568,91,300,1,Semiurban,Y
+Male,No,1,Graduate,No,5191,151,229,120,1,Urban,Y
+Male,Yes,1,Not Graduate,No,1325,3122,130,360,1,Rural,Y
+Male,Yes,1,Graduate,No,852,491,156,360,1,Urban,Y
+Male,Yes,0,Not Graduate,No,5751,2260,146,360,1,Urban,Y
+Male,Yes,1,Graduate,No,4503,3251,117,360,0,Semiurban,Y
+Male,Yes,3+,Graduate,No,7028,1650,199,360,1,Semiurban,Y
+Female,Yes,1,Graduate,No,1851,2700,156,180,0,Urban,Y
+Male,Yes,1,Not Graduate,No,2970,2168,126,180,0,Urban,Y
+Male,Yes,0,Graduate,No,2599,878,84,360,1,Rural,Y
+Male,No,2,Not Graduate,Yes,20703,3309,105,240,1,Urban,Y
+Male,Yes,2,Graduate,No,1728,698,67,180,0,Semiurban,Y
+Male,No,1,Graduate,No,1746,1693,150,300,1,Semiurban,Y
+Male,Yes,3+,Graduate,Yes,2189,2736,90,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,4157,952,136,300,1,Rural,Y
+Male,Yes,0,Not Graduate,No,1453,721,218,360,1,Semiurban,N
+Male,Yes,2,Not Graduate,No,12342,1229,209,360,1,Semiurban,Y
+Female,Yes,2,Not Graduate,No,1544,3407,148,300,1,Semiurban,Y
+Male,Yes,0,Graduate,No,11307,5316,145,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,546,1575,243,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,5343,2166,176,360,1,Rural,Y
+Female,Yes,0,Not Graduate,No,11875,4671,133,360,1,Urban,Y
+Female,Yes,2,Graduate,No,924,207,78,120,1,Urban,Y
+Male,Yes,1,Graduate,No,17261,528,169,360,1,Urban,Y
+Male,No,0,Graduate,No,3015,2468,191,300,1,Urban,Y
+Male,Yes,0,Graduate,No,14567,3471,118,360,1,Urban,Y
+Male,Yes,0,Not Graduate,No,5647,3890,164,360,0,Rural,N
+Female,No,0,Graduate,No,1794,1072,131,360,1,Semiurban,N
+Female,Yes,1,Graduate,No,1043,187,140,240,1,Semiurban,Y
+Female,Yes,3+,Graduate,No,1810,1151,25,240,1,Semiurban,Y
+Male,No,2,Graduate,No,488,524,138,300,1,Rural,N
+Female,Yes,0,Graduate,No,776,688,198,300,1,Semiurban,Y
+Female,Yes,2,Graduate,No,552,2959,118,240,0,Rural,N
+Male,Yes,2,Not Graduate,Yes,2749,157,152,360,1,Urban,Y
+Male,Yes,2,Not Graduate,No,7937,3515,112,240,1,Rural,Y
+Female,Yes,1,Graduate,No,762,1116,168,480,1,Semiurban,Y
+Male,Yes,0,Graduate,No,698,1812,139,180,1,Urban,N
+Female,Yes,0,Not Graduate,Yes,5156,187,103,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,1098,823,216,360,1,Semiurban,Y
+Female,No,0,Graduate,No,513,187,196,360,1,Urban,Y
+Male,No,0,Graduate,No,912,6516,119,360,1,Semiurban,Y
+Male,Yes,1,Graduate,No,12867,3292,174,300,1,Urban,Y
+Male,Yes,2,Graduate,Yes,8615,1231,176,360,1,Urban,Y
+Female,Yes,1,Not Graduate,Yes,2185,506,182,300,1,Rural,N
+Female,Yes,0,Graduate,No,5332,5419,65,300,0,Semiurban,Y
+Male,Yes,3+,Graduate,No,3853,845,200,360,1,Rural,Y
+Male,Yes,3+,Graduate,No,5652,351,121,300,1,Semiurban,Y
+Female,No,2,Graduate,Yes,5739,1656,132,360,1,Urban,N
+Male,Yes,3+,Graduate,No,4954,5756,281,240,1,Semiurban,N
+Female,Yes,1,Not Graduate,No,1546,7,165,300,1,Semiurban,Y
+Male,Yes,3+,Not Graduate,No,198,543,130,180,1,Rural,Y
+Male,Yes,0,Graduate,No,3040,5575,39,180,1,Urban,Y
+Male,No,0,Not Graduate,No,11080,375,219,240,1,Rural,Y
+Male,No,0,Not Graduate,Yes,4214,240,82,180,0,Rural,N
+Female,No,0,Not Graduate,Yes,8930,1688,99,180,0,Semiurban,Y
+Male,Yes,0,Graduate,No,23912,3958,133,360,1,Rural,Y
+Male,Yes,1,Graduate,No,893,1296,220,120,0,Urban,Y
+Female,Yes,2,Graduate,Yes,5884,10429,188,360,1,Rural,Y
+Male,Yes,1,Graduate,No,5608,2273,142,240,1,Semiurban,Y
+Male,Yes,0,Graduate,Yes,19548,153,165,360,0,Urban,Y
+Female,No,2,Graduate,No,21202,9876,119,300,1,Rural,Y
+Female,Yes,1,Not Graduate,No,5802,1048,156,300,0,Semiurban,N
+Male,Yes,0,Not Graduate,No,1396,677,153,360,1,Semiurban,Y
+Female,Yes,1,Not Graduate,No,8011,1632,198,300,1,Semiurban,Y
+Female,Yes,0,Graduate,No,566,725,198,360,1,Urban,Y
+Male,Yes,0,Graduate,No,7586,180,174,180,1,Semiurban,Y
+Male,No,3+,Graduate,No,12050,2,131,480,1,Rural,Y
+Female,No,0,Graduate,No,2413,1194,187,300,1,Urban,Y
+Female,No,1,Graduate,Yes,4979,3626,145,300,0,Urban,Y
+Male,Yes,2,Graduate,No,2811,1698,95,360,1,Urban,Y
+Female,Yes,2,Graduate,No,2879,14280,129,300,1,Semiurban,Y
+Female,Yes,0,Not Graduate,No,1858,676,154,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,7180,658,195,300,1,Rural,Y
+Male,No,0,Graduate,No,13758,348,140,360,1,Rural,Y
+Male,Yes,1,Graduate,No,14130,358,89,180,1,Semiurban,Y
+Female,Yes,1,Graduate,No,960,671,152,360,1,Urban,Y
+Male,Yes,0,Graduate,No,10386,3148,155,360,1,Rural,Y
+Male,Yes,3+,Graduate,No,6686,4723,159,240,0,Rural,Y
+Female,No,1,Graduate,No,1457,7384,195,180,1,Semiurban,Y
+Female,Yes,0,Graduate,Yes,348,528,200,300,0,Semiurban,Y
+Male,Yes,1,Graduate,No,1559,4262,120,480,1,Rural,Y
+Female,Yes,1,Graduate,No,12163,795,119,240,1,Semiurban,Y
+Male,Yes,0,Graduate,Yes,5014,239,97,300,1,Urban,Y
+Female,No,0,Not Graduate,No,6383,4080,184,120,1,Semiurban,Y
+Male,No,2,Graduate,No,1486,2021,222,300,1,Urban,Y
+Male,No,1,Graduate,No,6353,360,134,360,0,Urban,N
+Female,No,1,Graduate,No,142,1123,137,480,1,Semiurban,Y
+Male,Yes,1,Not Graduate,No,2352,677,223,360,1,Urban,Y
+Male,Yes,0,Not Graduate,Yes,4927,2669,175,360,1,Urban,Y
+Female,Yes,0,Graduate,No,789,1208,171,360,1,Urban,Y
+Female,Yes,1,Graduate,No,8658,9071,90,120,1,Semiurban,Y
+Female,No,0,Not Graduate,No,1339,112,183,300,1,Rural,Y
+Female,Yes,0,Graduate,Yes,5281,877,103,360,1,Rural,Y
+Male,No,2,Graduate,No,2597,1315,93,480,1,Urban,Y
+Male,Yes,3+,Graduate,No,4532,1398,132,360,1,Semiurban,Y
+Male,Yes,2,Not Graduate,No,568,759,120,240,1,Rural,Y
+Male,Yes,2,Not Graduate,No,85,2613,138,240,1,Urban,Y
+Female,No,0,Graduate,No,12015,4154,77,240,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,1571,5584,197,360,1,Rural,N
+Male,Yes,0,Graduate,No,8565,3270,206,360,0,Urban,Y
+Male,Yes,3+,Graduate,No,36695,3801,52,360,1,Rural,Y
+Female,Yes,3+,Not Graduate,No,1187,1599,198,300,1,Rural,Y
+Male,Yes,2,Graduate,Yes,1540,3496,109,360,0,Urban,N
+Male,No,3+,Graduate,No,5436,723,192,300,1,Urban,Y
+Male,Yes,1,Graduate,Yes,16826,1016,146,240,1,Urban,Y
+Female,Yes,0,Graduate,No,12373,762,151,360,1,Urban,N
+Male,Yes,1,Graduate,No,3494,1259,140,120,1,Semiurban,Y
+Female,Yes,1,Graduate,No,7926,672,210,180,1,Semiurban,Y
+Female,No,0,Graduate,No,729,6519,88,360,1,Urban,Y
+Male,Yes,1,Graduate,No,18957,750,180,360,1,Rural,Y
+Female,Yes,3+,Graduate,Yes,16670,206,205,300,1,Urban,Y
+Female,Yes,0,Graduate,No,894,1496,185,360,1,Urban,N
+Female,No,2,Graduate,Yes,1779,117,266,300,1,Urban,Y
+Male,No,3+,Not Graduate,Yes,527,234,123,360,1,Semiurban,N
+Male,Yes,3+,Not Graduate,No,1585,495,197,360,1,Semiurban,Y
+Female,Yes,3+,Not Graduate,No,8462,1248,144,360,1,Urban,Y
+Male,Yes,1,Graduate,No,2376,1135,211,360,0,Urban,Y
+Female,No,3+,Not Graduate,No,462,3215,149,240,1,Rural,Y
+Female,Yes,2,Graduate,Yes,2094,2690,130,300,1,Rural,Y
+Female,Yes,0,Graduate,No,19918,1111,215,300,1,Urban,Y
+Male,Yes,1,Graduate,No,4966,812,125,300,1,Urban,Y
+Male,Yes,2,Graduate,No,2690,760,79,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,910,2974,124,300,0,Semiurban,Y
+Female,No,1,Graduate,No,21407,106,180,180,1,Urban,Y
+Male,Yes,1,Graduate,Yes,8597,25,219,300,1,Rural,Y
+Female,Yes,0,Graduate,No,1652,3174,155,480,1,Semiurban,Y
+Female,Yes,1,Graduate,No,363,1296,215,240,1,Semiurban,Y
+Male,No,2,Graduate,No,291,280,82,360,1,Semiurban,Y
+Male,Yes,1,Graduate,No,641,537,127,300,1,Rural,Y
+Male,No,0,Not Graduate,No,4346,5391,135,180,1,Rural,Y
+Male,Yes,0,Not Graduate,No,13208,3925,144,300,1,Urban,Y
+Male,Yes,0,Graduate,No,3433,2474,154,360,1,Urban,Y
+Female,Yes,3+,Graduate,No,9255,1316,184,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,2951,1469,127,360,1,Urban,Y
+Male,Yes,1,Not Graduate,No,6165,7397,156,240,1,Semiurban,Y
+Male,No,0,Graduate,No,6581,6749,147,180,1,Rural,Y
+Male,Yes,0,Graduate,No,955,484,103,360,1,Semiurban,Y
+Female,Yes,2,Graduate,No,2240,3333,144,300,1,Rural,Y
+Male,Yes,2,Graduate,No,5070,439,142,360,1,Urban,Y
+Male,No,0,Graduate,No,366,480,141,360,1,Rural,Y
+Female,No,1,Not Graduate,No,2243,2254,151,300,1,Rural,N
+Male,Yes,0,Graduate,No,3826,1038,153,360,1,Urban,Y
+Male,No,1,Graduate,No,27896,5363,128,180,1,Semiurban,Y
+Male,Yes,1,Not Graduate,No,3217,186,213,240,1,Urban,Y
+Male,Yes,0,Not Graduate,No,8465,1432,91,180,1,Rural,Y
+Male,No,0,Graduate,No,2828,5014,113,360,1,Semiurban,Y
+Male,No,0,Graduate,No,7957,4689,288,240,1,Urban,Y
+Male,Yes,3+,Graduate,Yes,4524,340,98,360,1,Semiurban,Y
+Female,Yes,3+,Not Graduate,No,10883,913,82,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,2646,1930,186,360,0,Urban,Y
+Male,No,2,Not Graduate,Yes,4635,347,46,360,1,Urban,Y
+Female,Yes,0,Graduate,No,4971,6885,138,300,1,Semiurban,Y
+Male,Yes,0,Graduate,No,2701,4924,257,300,0,Semiurban,N
+Female,Yes,2,Graduate,No,779,365,72,300,1,Rural,Y
+Male,Yes,3+,Graduate,No,491,258,50,360,0,Rural,Y
+Female,Yes,3+,Graduate,Yes,84,178,75,480,1,Semiurban,Y
+Male,No,1,Graduate,No,10338,4803,194,360,0,Rural,Y
+Male,Yes,0,Graduate,No,1349,430,206,360,1,Semiurban,Y
+Male,Yes,2,Not Graduate,No,1188,1076,124,360,0,Semiurban,Y
+Female,Yes,0,Graduate,Yes,6659,1191,184,300,1,Urban,Y
+Male,No,1,Graduate,No,1928,1827,219,360,1,Urban,Y
+Male,Yes,0,Graduate,Yes,3526,148,239,360,1,Semiurban,N
+Male,Yes,1,Graduate,No,886,514,137,300,0,Urban,Y
+Female,No,0,Graduate,No,16062,5361,34,480,1,Semiurban,N
+Male,No,0,Graduate,No,9538,4780,108,300,1,Rural,Y
+Female,No,3+,Not Graduate,No,9967,3040,128,360,1,Urban,N
+Male,No,0,Graduate,No,2610,39,137,360,1,Semiurban,Y
+Male,Yes,1,Graduate,No,7185,792,140,480,1,Rural,Y
+Male,No,0,Graduate,Yes,776,1977,205,240,1,Rural,Y
+Male,Yes,0,Graduate,No,43,643,213,360,1,Urban,Y
+Male,No,0,Graduate,No,100,4806,141,360,1,Urban,Y
+Male,No,0,Not Graduate,No,4416,2009,204,240,1,Semiurban,Y
+Female,No,2,Not Graduate,No,3038,149,167,360,0,Semiurban,Y
+Male,Yes,0,Graduate,No,3649,4793,153,360,0,Urban,Y
+Male,Yes,3+,Graduate,Yes,37,6329,195,360,0,Urban,Y
+Male,Yes,1,Graduate,No,2746,161,153,300,1,Rural,Y
+Male,No,1,Graduate,No,6330,1520,252,300,1,Semiurban,Y
+Male,No,1,Graduate,No,2923,722,78,360,1,Rural,Y
+Male,Yes,1,Graduate,No,6587,997,124,300,0,Rural,Y
+Male,Yes,2,Graduate,Yes,1326,396,143,240,1,Rural,N
+Female,Yes,0,Graduate,No,8387,1725,171,480,1,Urban,Y
+Female,No,0,Graduate,No,4438,6339,213,360,1,Rural,Y
+Male,No,2,Graduate,No,1183,1398,148,360,1,Urban,Y
+Male,Yes,3+,Graduate,Yes,1350,173,78,300,1,Semiurban,Y
+Female,Yes,2,Graduate,No,4944,1935,192,300,1,Semiurban,Y
+Male,No,1,Not Graduate,No,8858,831,187,300,1,Urban,Y
+Male,No,2,Graduate,No,2686,3874,52,300,1,Rural,Y
+Male,Yes,1,Graduate,No,1494,1140,149,360,1,Rural,Y
+Female,Yes,1,Graduate,No,10087,428,70,360,1,Urban,Y
+Female,Yes,0,Not Graduate,No,5532,424,116,300,1,Semiurban,Y
+Male,Yes,1,Graduate,No,2971,2928,104,180,1,Urban,Y
+Male,Yes,0,Graduate,No,3346,617,190,300,0,Semiurban,Y
+Male,Yes,0,Graduate,No,1142,2915,155,240,1,Rural,Y
+Female,No,2,Graduate,No,4928,461,85,180,1,Urban,Y
+Male,Yes,0,Not Graduate,No,2221,776,194,360,1,Rural,Y
+Male,No,0,Graduate,No,27182,1252,78,360,1,Urban,Y
+Female,Yes,0,Not Graduate,Yes,3271,5736,166,360,1,Semiurban,Y
+Male,Yes,3+,Not Graduate,No,3326,5368,109,300,1,Semiurban,Y
+Female,Yes,1,Not Graduate,No,4171,463,131,360,1,Urban,Y
+Male,Yes,1,Graduate,No,12429,887,175,360,1,Urban,Y
+Male,No,2,Graduate,Yes,8067,323,176,360,1,Rural,Y
+Male,No,2,Graduate,No,2999,1426,216,300,1,Rural,Y
+Female,Yes,0,Not Graduate,No,6341,1234,145,480,1,Urban,Y
+Female,Yes,1,Graduate,Yes,4412,4620,165,360,0,Semiurban,Y
+Female,No,2,Graduate,No,3389,5318,128,360,1,Urban,Y
+Male,Yes,1,Graduate,No,1067,967,159,240,1,Urban,Y
+Female,Yes,0,Graduate,No,3117,1353,171,240,1,Semiurban,Y
+Male,No,2,Not Graduate,Yes,1410,4531,145,240,1,Urban,Y
+Male,Yes,1,Graduate,Yes,12316,3287,59,240,1,Rural,Y
+Female,Yes,0,Not Graduate,No,2042,7,166,360,0,Semiurban,N
+Male,Yes,1,Graduate,Yes,15210,771,168,120,1,Rural,Y
+Male,No,0,Not Graduate,No,3807,1095,115,180,1,Semiurban,N
+Male,Yes,0,Graduate,Yes,4992,521,85,240,1,Rural,Y
+Male,Yes,2,Graduate,No,3914,445,223,240,0,Semiurban,Y
+Male,No,0,Not Graduate,Yes,692,77,174,240,1,Semiurban,Y
+Male,Yes,1,Graduate,No,2356,2062,138,360,1,Rural,Y
+Male,No,1,Not Graduate,No,522,609,93,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,4876,107,108,120,1,Urban,Y
+Female,No,3+,Graduate,No,2960,525,215,300,1,Semiurban,Y
+Male,Yes,0,Graduate,No,7525,3238,156,300,1,Rural,Y
+Male,Yes,0,Graduate,No,1245,3814,122,180,1,Rural,Y
+Male,Yes,0,Graduate,No,899,1319,175,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,2607,1075,109,360,1,Semiurban,Y
+Male,No,0,Graduate,No,13058,7620,225,360,1,Rural,Y
+Female,No,2,Graduate,No,6196,447,217,360,1,Urban,Y
+Male,Yes,3+,Not Graduate,No,2714,485,126,120,1,Semiurban,Y
+Male,Yes,0,Not Graduate,No,3641,690,118,480,1,Urban,Y
+Male,No,1,Graduate,No,439,379,20,360,0,Semiurban,Y
+Male,No,2,Graduate,No,20859,954,75,360,1,Semiurban,Y
+Female,Yes,2,Graduate,No,5489,4834,83,120,1,Urban,Y
+Female,Yes,1,Graduate,No,1680,1910,156,360,0,Urban,N
+Male,Yes,0,Not Graduate,No,4407,1061,133,360,1,Semiurban,Y
+Female,Yes,0,Not Graduate,No,579,5448,82,360,1,Urban,Y
+Male,Yes,2,Graduate,No,16883,99,135,180,1,Urban,Y
+Female,Yes,2,Not Graduate,No,960,472,175,360,1,Rural,Y
+Female,Yes,0,Graduate,No,5221,1668,176,480,1,Urban,Y
+Male,No,0,Not Graduate,Yes,1408,1911,55,360,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,6321,80,143,360,1,Rural,Y
+Male,Yes,2,Graduate,No,7498,1031,80,360,1,Urban,Y
+Male,Yes,3+,Graduate,No,5595,2094,195,300,1,Urban,Y
+Female,Yes,2,Graduate,No,4766,2395,189,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,11149,2032,105,300,1,Rural,Y
+Male,Yes,1,Not Graduate,No,409,772,111,360,1,Rural,Y
+Female,Yes,1,Graduate,No,2009,196,126,180,1,Rural,Y
+Female,Yes,0,Graduate,No,1427,1114,37,360,1,Rural,Y
+Male,Yes,1,Graduate,No,22120,275,166,360,1,Urban,Y
+Male,Yes,2,Graduate,No,2466,5898,136,360,0,Urban,Y
+Male,No,0,Graduate,No,6595,1289,198,360,1,Urban,Y
+Male,Yes,2,Graduate,No,5771,763,95,360,1,Urban,Y
+Female,No,1,Graduate,No,1191,2907,119,360,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,1365,1378,74,180,0,Semiurban,N
+Male,Yes,0,Graduate,No,1651,742,99,300,1,Urban,N
+Male,Yes,0,Not Graduate,No,2647,3342,90,120,1,Rural,Y
+Male,Yes,1,Not Graduate,No,1334,4037,199,300,1,Urban,Y
+Female,No,0,Graduate,No,99,2235,115,360,1,Semiurban,Y
+Female,No,2,Graduate,No,10576,96,156,360,1,Semiurban,Y
+Male,No,2,Graduate,No,16849,1670,130,360,1,Semiurban,Y
+Male,Yes,0,Graduate,No,2089,2881,86,180,0,Semiurban,Y
+Male,Yes,1,Graduate,No,2066,293,141,180,1,Urban,Y
+Female,Yes,1,Graduate,No,35,519,179,360,1,Semiurban,Y
+Female,Yes,0,Graduate,No,5701,4282,89,360,1,Rural,Y
+Male,Yes,3+,Graduate,No,8727,40,190,240,1,Rural,Y
+Female,Yes,2,Graduate,No,792,2794,107,360,0,Semiurban,Y
+Female,Yes,1,Not Graduate,Yes,869,1284,125,360,1,Semiurban,Y
+Male,Yes,2,Not Graduate,No,7805,1183,176,300,1,Semiurban,Y
+Female,No,1,Graduate,No,4789,14,116,360,1,Rural,Y
+Male,No,3+,Graduate,No,229,3422,151,300,1,Urban,Y
+Male,No,1,Not Graduate,No,4871,892,134,360,1,Semiurban,Y
+Male,Yes,2,Not Graduate,No,1847,1556,156,300,1,Rural,Y
+Male,Yes,2,Graduate,No,2300,2262,30,180,1,Semiurban,N
+Male,Yes,0,Graduate,No,7342,2425,58,360,1,Urban,Y
+Female,No,2,Graduate,No,8328,6246,180,300,1,Semiurban,Y
+Male,Yes,0,Graduate,No,2557,1515,201,360,1,Urban,Y
+Female,Yes,0,Graduate,No,14701,1020,104,300,1,Semiurban,N
+Male,No,0,Graduate,No,2608,6145,137,120,1,Semiurban,Y
+Male,Yes,3+,Graduate,No,7388,2055,164,180,1,Rural,Y
+Male,Yes,2,Graduate,No,3307,708,184,300,1,Semiurban,Y
+Male,Yes,2,Not Graduate,No,11391,270,48,360,1,Urban,N
+Female,Yes,2,Graduate,No,11916,3697,105,300,1,Urban,Y
+Male,Yes,1,Graduate,No,457,899,133,360,1,Rural,Y
+Male,Yes,3+,Graduate,No,13783,2160,185,360,1,Urban,Y
+Male,Yes,1,Graduate,No,8730,1272,274,360,1,Semiurban,N
+Female,Yes,0,Not Graduate,No,7834,443,138,300,1,Urban,Y
+Female,No,0,Graduate,No,1121,1841,79,360,1,Rural,Y
+Female,Yes,2,Graduate,No,8176,125,170,300,1,Semiurban,Y
+Male,Yes,2,Graduate,No,9490,1066,216,300,1,Urban,Y
+Male,Yes,0,Graduate,No,1706,1582,155,240,1,Urban,Y
+Male,No,0,Not Graduate,No,15209,1145,104,300,0,Rural,N
+Male,Yes,2,Graduate,Yes,255,2761,197,120,1,Semiurban,Y
+Male,Yes,0,Graduate,No,812,3519,183,360,1,Semiurban,Y
+Male,No,2,Graduate,Yes,3856,2950,98,240,0,Rural,N
+Male,No,3+,Graduate,Yes,4287,79,169,300,1,Rural,Y
+Male,Yes,1,Not Graduate,No,5180,431,199,360,1,Urban,Y
+Female,No,0,Not Graduate,No,85,1538,209,300,0,Rural,Y
+Male,Yes,2,Graduate,No,16140,5461,146,240,1,Urban,Y
+Male,Yes,2,Graduate,No,228,3603,132,240,1,Urban,Y
+Female,Yes,1,Not Graduate,No,771,3697,211,360,1,Rural,Y
+Male,Yes,3+,Not Graduate,No,70,722,89,180,0,Urban,N
+Female,No,0,Graduate,No,4183,1122,171,300,1,Urban,N
+Male,Yes,1,Graduate,No,13460,1272,81,360,1,Urban,Y
+Male,Yes,2,Graduate,No,5482,342,203,360,1,Semiurban,Y
+Female,No,2,Not Graduate,No,8648,63,137,360,1,Semiurban,Y
+Female,No,0,Graduate,No,66,5871,213,360,1,Semiurban,Y
+Female,Yes,2,Graduate,No,3904,550,174,120,0,Rural,Y
+Male,Yes,1,Not Graduate,No,3076,548,88,240,1,Semiurban,Y
+Male,Yes,0,Graduate,No,3455,174,221,240,1,Urban,Y
+Male,No,0,Graduate,Yes,374,5276,227,180,1,Rural,Y
+Male,Yes,2,Graduate,No,5766,1733,194,240,1,Urban,Y
+Female,No,0,Graduate,Yes,3498,2199,111,300,1,Urban,N
+Male,Yes,0,Graduate,No,7244,4851,134,360,1,Urban,Y
+Female,Yes,0,Graduate,No,3320,848,157,360,1,Semiurban,N
+Male,Yes,2,Graduate,No,808,1943,114,300,0,Urban,Y
