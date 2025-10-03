@@ -1,0 +1,20 @@
+# Alternative Render Configuration
+# render.yaml - Render Blueprint specification
+
+services:
+  - type: web
+    name: loan-sanctioning-system
+    env: python
+    region: ohio
+    plan: free
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: gunicorn --bind 0.0.0.0:$PORT backend.app:app --timeout 120 --workers 1 --max-requests 1000
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: PYTHONPATH
+        value: /opt/render/project/src
+      - key: PYTHON_VERSION
+        value: 3.11.5
