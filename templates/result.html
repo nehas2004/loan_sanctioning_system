@@ -80,6 +80,20 @@
                         
                         <!-- Application Summary -->
                         <div class="col-md-6">
+                            <!-- Risk Assessment -->
+                            <h5 class="text-primary mb-3">
+                                <i class="fas fa-chart-bar me-2"></i>Risk Assessment
+                            </h5>
+                            <div class="risk-assessment mb-4">
+                                <div class="alert alert-{{ risk_color }} mb-3">
+                                    <h6 class="alert-heading mb-1">
+                                        <i class="fas fa-shield-alt me-2"></i>Risk Level:
+                                        <span class="text-uppercase fw-bold">{{ risk_level }}</span>
+                                    </h6>
+                                    <small class="text-muted">Based on historical loan data analysis</small>
+                                </div>
+                            </div>
+                            
                             <h5 class="text-primary mb-3">
                                 <i class="fas fa-file-alt me-2"></i>Application Summary
                             </h5>
@@ -120,11 +134,36 @@
                                     </tr>
                                     <tr>
                                         <td><strong>Loan Term:</strong></td>
-                                        <td>{{ applicant_data.Loan_Amount_Term }} months</td>
+                                        <td>{{ applicant_data.Loan_Amount_Term // 12 }} years ({{ applicant_data.Loan_Amount_Term }} months)</td>
                                     </tr>
+                                    {% if emi is defined and emi is not none %}
                                     <tr>
-                                        <td><strong>Credit History:</strong></td>
-                                        <td>{{ "Good" if applicant_data.Credit_History == 1 else "Poor/None" }}</td>
+                                        <td><strong>Estimated EMI:</strong></td>
+                                        <td>₹{{ "{:,.0f}".format(emi) }}</td>
+                                    </tr>
+                                    {% endif %}
+                                    {% if emi_to_income is defined and emi_to_income is not none %}
+                                    <tr>
+                                        <td><strong>EMI-to-Income:</strong></td>
+                                        <td>{{ "{:.1f}%".format(emi_to_income) }}</td>
+                                    </tr>
+                                    {% endif %}
+                                    <tr>
+                                        <td><strong>Credit Score:</strong></td>
+                                        <td>
+                                            {{ applicant_data.Credit_Score }}
+                                            {% if applicant_data.Credit_Score >= 800 %}
+                                            <span class="badge bg-success">Excellent</span>
+                                            {% elif applicant_data.Credit_Score >= 740 %}
+                                            <span class="badge bg-primary">Very Good</span>
+                                            {% elif applicant_data.Credit_Score >= 670 %}
+                                            <span class="badge bg-info">Good</span>
+                                            {% elif applicant_data.Credit_Score >= 580 %}
+                                            <span class="badge bg-warning">Fair</span>
+                                            {% else %}
+                                            <span class="badge bg-danger">Poor</span>
+                                            {% endif %}
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td><strong>Property Area:</strong></td>
@@ -154,13 +193,13 @@
                                     Your loan application was not approved at this time. Consider improving the following factors:
                                 </p>
                                 <ul class="mb-0 mt-2">
-                                    {% if applicant_data.Credit_History == 0 %}
-                                    <li>Build or improve your credit history</li>
+                                    {% if applicant_data.Credit_Score < 670 %}
+                                    <li>Improve your credit score (currently {{ applicant_data.Credit_Score }}, aim for at least 670)</li>
                                     {% endif %}
                                     {% if applicant_data.ApplicantIncome + applicant_data.CoapplicantIncome < 5000 %}
                                     <li>Increase your total household income</li>
                                     {% endif %}
-                                    {% if applicant_data.LoanAmount * 1000 > (applicant_data.ApplicantIncome + applicant_data.CoapplicantIncome) * 12 * 5 %}
+                                    {% if applicant_data.LoanAmount > (applicant_data.ApplicantIncome + applicant_data.CoapplicantIncome) * 12 * 5 %}
                                     <li>Consider applying for a smaller loan amount</li>
                                     {% endif %}
                                     <li>You may reapply after addressing these factors</li>

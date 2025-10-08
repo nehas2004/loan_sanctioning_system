@@ -1,199 +1,59 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AI-powered loan sanctioning system using Decision Tree classification">
-    <meta name="keywords" content="loan, machine learning, decision tree, fintech, AI">
-    <meta name="author" content="Loan Sanctioning System">
-    
     <title>{% block title %}Loan Sanctioning System{% endblock %}</title>
     
-    <!-- Preload critical resources -->
-    <link rel="preload" href="{{ url_for('static', filename='css/style.css') }}" as="style">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
-    
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏦</text></svg>">
-    
-    {% block extra_css %}{% endblock %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <!-- Loading Screen -->
-    <div id="loadingScreen" class="loading-screen">
-        <div class="loading-content">
-            <div class="loading-spinner"></div>
-            <h3>Loading Loan System...</h3>
-        </div>
-    </div>
-
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar">
-        <div class="nav-container">
-            <!-- Brand -->
-            <div class="nav-brand">
-                <a href="{{ url_for('index') }}" class="brand-link">
-                    <div class="brand-icon">
-                        <i class="bi bi-bank"></i>
-                    </div>
-                    <div class="brand-text">
-                        <span class="brand-title">LoanAI</span>
-                        <span class="brand-subtitle">Smart Decisions</span>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Navigation Menu -->
-            <div class="nav-menu" id="navMenu">
-                <a href="{{ url_for('index') }}" class="nav-link" data-page="home">
-                    <i class="bi bi-house"></i>
-                    <span>Home</span>
-                </a>
-                <a href="{{ url_for('predict') }}" class="nav-link" data-page="predict">
-                    <i class="bi bi-calculator"></i>
-                    <span>Predict</span>
-                </a>
-                <a href="{{ url_for('analytics') }}" class="nav-link" data-page="analytics">
-                    <i class="bi bi-graph-up"></i>
-                    <span>Analytics</span>
-                </a>
-                <a href="{{ url_for('train') }}" class="nav-link" data-page="train">
-                    <i class="bi bi-gear"></i>
-                    <span>Train</span>
-                </a>
-                <a href="{{ url_for('about') }}" class="nav-link" data-page="about">
-                    <i class="bi bi-info-circle"></i>
-                    <span>About</span>
-                </a>
-            </div>
-
-            <!-- Theme Toggle & Mobile Menu -->
-            <div class="nav-actions">
-                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
-                    <i class="bi bi-sun" id="themeIcon"></i>
-                </button>
-                <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="bi bi-bank2 me-2"></i>LoanAI
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/predict">Predict</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/analytics">Analytics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/train">Train Model</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <main id="mainContent" class="main-content">
-        <!-- Page Indicator -->
-        <div class="page-indicator" id="pageIndicator"></div>
-        
-        <!-- Content Area -->
-        <div class="content-wrapper">
-            {% block content %}{% endblock %}
-        </div>
-        
-        <!-- Scroll to Top Button -->
-        <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
-            <i class="bi bi-arrow-up"></i>
-        </button>
+    <main>
+        {% block content %}{% endblock %}
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <div class="footer-brand">
-                    <h4>LoanAI</h4>
-                    <p>Revolutionizing loan decisions with AI-powered analytics and transparent decision-making processes.</p>
-                </div>
-            </div>
-            
-            <div class="footer-section">
-                <h5>Features</h5>
-                <ul class="footer-links">
-                    <li><a href="{{ url_for('predict') }}">Loan Prediction</a></li>
-                    <li><a href="{{ url_for('analytics') }}">Analytics Dashboard</a></li>
-                    <li><a href="{{ url_for('train') }}">Model Training</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-section">
-                <h5>Technology</h5>
-                <ul class="footer-links">
-                    <li>Decision Tree ML</li>
-                    <li>Python & Flask</li>
-                    <li>Responsive Design</li>
-                </ul>
-            </div>
-            
-            <div class="footer-section">
-                <h5>Performance</h5>
-                <div class="footer-stats">
-                    <div class="stat-item">
-                        <span class="stat-value">95%+</span>
-                        <span class="stat-label">Accuracy</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">&lt;1s</span>
-                        <span class="stat-label">Response</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer-bottom">
-            <div class="footer-bottom-content">
-                <p>&copy; 2025 LoanAI System. Built for educational purposes.</p>
-                <div class="footer-tech">
-                    <span>Powered by</span>
-                    <i class="bi bi-python"></i>
-                    <i class="bi bi-graph-up"></i>
-                    <i class="bi bi-cpu"></i>
-                </div>
-            </div>
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 LoanAI Smart Prediction System. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Notification Container -->
-    <div id="notificationContainer" class="notification-container"></div>
-
-    <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
-    <!-- Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
-    
-    <!-- Ensure loading screen is hidden -->
-    <script>
-        // Immediate loading screen fix
-        document.addEventListener('DOMContentLoaded', function() {
-            const loadingScreen = document.getElementById('loadingScreen');
-            if (loadingScreen) {
-                setTimeout(() => {
-                    loadingScreen.style.opacity = '0';
-                    setTimeout(() => {
-                        loadingScreen.style.display = 'none';
-                    }, 500);
-                }, 500);
-            }
-        });
-        
-        // Backup - hide after 2 seconds regardless
-        setTimeout(() => {
-            const loadingScreen = document.getElementById('loadingScreen');
-            if (loadingScreen) {
-                loadingScreen.style.display = 'none';
-            }
-        }, 2000);
-    </script>
-    
-    {% block extra_js %}{% endblock %}
 </body>
 </html>

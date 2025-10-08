@@ -1,9 +1,0 @@
-# Ultra-minimal requirements - NO SCIKIT-LEARN
-# Rule-based ML approach to avoid compilation issues
-# Python 3.13 compatible versions with pre-built wheels
-
-Flask==3.0.3
-Flask-CORS==4.0.0
-pandas==2.3.2
-numpy==2.2.4
-gunicorn==22.0.0

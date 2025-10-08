@@ -44,12 +44,17 @@
                         <div class="col-lg-4">
                             <h6 class="text-primary mb-3">Top Features:</h6>
                             <div class="feature-list">
-                                {% for item in feature_importance[:5] %}
-                                <div class="feature-item d-flex justify-content-between align-items-center mb-2 p-2 bg-light rounded">
-                                    <span class="fw-semibold">{{ item.feature.replace('_', ' ').title() }}</span>
-                                    <span class="badge bg-primary">{{ item.importance }}%</span>
-                                </div>
-                                {% endfor %}
+                                                    {# Safely iterate only if feature_importance is a sequence/list-like #}
+                                                    {% if feature_importance is iterable and not feature_importance is mapping %}
+                                                        {% for item in feature_importance[:5] %}
+                                                        <div class="feature-item d-flex justify-content-between align-items-center mb-2 p-2 bg-light rounded">
+                                                            <span class="fw-semibold">{{ item.feature.replace('_', ' ').title() }}</span>
+                                                            <span class="badge bg-primary">{{ item.importance }}%</span>
+                                                        </div>
+                                                        {% endfor %}
+                                                    {% else %}
+                                                        <div class="text-muted">Feature importance is not available</div>
+                                                    {% endif %}
                             </div>
                             
                             <div class="mt-4">
@@ -253,7 +258,8 @@
 </div>
 
 <!-- Hidden data for charts -->
-{% if feature_importance %}
+{# Only expose JSON data if feature_importance is a list/sequence to avoid JS errors #}
+{% if feature_importance is iterable and not feature_importance is mapping %}
 <script id="featureImportanceData" type="application/json">
 {{ feature_importance | tojson }}
 </script>
