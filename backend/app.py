@@ -26,6 +26,11 @@ MODEL_PATH = os.path.join(PROJECT_ROOT, 'models', 'decision_tree_with_scores.job
 loan_model = DecisionTreeModel(model_path=MODEL_PATH)
 risk_assessor = RiskAssessment()
 
+@app.route('/decision-trees')
+def decision_trees():
+    """Route to display decision tree visualizations"""
+    return render_template('decision_trees.html')
+
 def initialize_model():
     if loan_model.pipeline is not None:
         print("Decision tree model loaded successfully!")
