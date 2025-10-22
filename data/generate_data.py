@@ -20,6 +20,11 @@ def generate_loan_dataset(n_samples=1000):
         'Loan_Amount_Term': np.random.choice([120, 180, 240, 300, 360, 480], n_samples, p=[0.05, 0.1, 0.15, 0.2, 0.45, 0.05]),
         'Credit_History': np.random.choice([0, 1], n_samples, p=[0.15, 0.85]),
         'Property_Area': np.random.choice(['Urban', 'Semiurban', 'Rural'], n_samples, p=[0.4, 0.35, 0.25])
+        ,
+        # Purpose of loan (new feature)
+        'Purpose': np.random.choice([
+            'Home Purchase', 'Home Renovation', 'Education', 'Business', 'Medical', 'Car', 'Debt Consolidation', 'Wedding', 'Other'
+        ], n_samples, p=[0.2, 0.15, 0.15, 0.15, 0.05, 0.1, 0.1, 0.05, 0.05])
     }
     
     df = pd.DataFrame(data)
@@ -55,6 +60,20 @@ def generate_loan_dataset(n_samples=1000):
     # Property area factor
     area_factor = df['Property_Area'].map({'Urban': 0.05, 'Semiurban': 0, 'Rural': -0.05})
     prob_adjustments += area_factor
+
+    # Purpose factor: some purposes (education, essential medical) may increase approval likelihood
+    purpose_factor = df['Purpose'].map({
+        'Education': 0.05,
+        'Medical': 0.08,
+        'Home Purchase': 0.03,
+        'Home Renovation': 0.01,
+        'Car': -0.01,
+        'Business': 0.0,
+        'Debt Consolidation': -0.02,
+        'Wedding': -0.02,
+        'Other': 0.0
+    })
+    prob_adjustments += purpose_factor
     
     # Clip probabilities
     prob_adjustments = np.clip(prob_adjustments, 0.1, 0.9)

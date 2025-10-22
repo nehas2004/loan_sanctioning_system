@@ -23,9 +23,9 @@ def convert_credit_history_to_score(credit_history, loan_amount, applicant_incom
     return min(max(int(round(score)), 300), 900)
 
 # Read the training data
-train_data = pd.read_csv('loan_train_split.csv')
-test_data = pd.read_csv('loan_test_split.csv')
-sample_data = pd.read_csv('sample_loan_data.csv')
+train_data = pd.read_csv('data/loan_train_split.csv')
+test_data = pd.read_csv('data/loan_test_split.csv')
+sample_data = pd.read_csv('data/sample_loan_data.csv')
 
 # Convert credit history to credit score for each dataset
 for dataset in [train_data, test_data, sample_data]:
@@ -38,13 +38,14 @@ for dataset in [train_data, test_data, sample_data]:
         )
         credit_scores.append(score)
     
-    # Replace Credit_History with Credit_Score
+    # Replace Credit_History with Credit_Score and preserve Purpose if present
     dataset['Credit_Score'] = credit_scores
-    dataset.drop('Credit_History', axis=1, inplace=True)
+    if 'Credit_History' in dataset.columns:
+        dataset.drop('Credit_History', axis=1, inplace=True)
 
 # Save the updated datasets
-train_data.to_csv('loan_train_split_with_scores.csv', index=False)
-test_data.to_csv('loan_test_split_with_scores.csv', index=False)
-sample_data.to_csv('sample_loan_data_with_scores.csv', index=False)
+train_data.to_csv('data/loan_train_split_with_scores.csv', index=False)
+test_data.to_csv('data/loan_test_split_with_scores.csv', index=False)
+sample_data.to_csv('data/sample_loan_data_with_scores.csv', index=False)
 
 print("Datasets updated with credit scores")

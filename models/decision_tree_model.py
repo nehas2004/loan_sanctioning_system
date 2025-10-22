@@ -56,9 +56,9 @@ class DecisionTreeModel:
         features = (self.numeric_features or 
                    ['ApplicantIncome', 'CoapplicantIncome', 'LoanAmount',
                     'Loan_Amount_Term', 'Credit_Score']) + \
-                  (self.categorical_features or 
-                   ['Gender', 'Married', 'Dependents', 'Education',
-                    'Self_Employed', 'Property_Area'])
+                                    (self.categorical_features or 
+                                     ['Gender', 'Married', 'Dependents', 'Education',
+                                        'Self_Employed', 'Property_Area', 'Purpose'])
 
         row = {f: applicant_data.get(f) for f in features}
         

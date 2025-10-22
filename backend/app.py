@@ -70,6 +70,7 @@ def predict():
                 'Dependents': request.form['dependents'],
                 'Education': request.form['education'],
                 'Self_Employed': request.form['self_employed'],
+                'Purpose': request.form.get('purpose'),
                 'ApplicantIncome': float(request.form['applicant_income']),
                 'CoapplicantIncome': float(request.form['coapplicant_income']),
                 'LoanAmount': loan_amount_thousands,  # Store in thousands for model
@@ -140,6 +141,7 @@ def api_predict():
                 'Dependents': data.get('Dependents', data.get('dependents')),
                 'Education': data.get('Education', data.get('education')),
                 'Self_Employed': data.get('Self_Employed', data.get('self_employed')),
+                'Purpose': data.get('Purpose', data.get('purpose')),
                 'ApplicantIncome': float(data.get('ApplicantIncome', data.get('applicant_income', 0)) or 0),
                 'CoapplicantIncome': float(data.get('CoapplicantIncome', data.get('coapplicant_income', 0)) or 0),
                 'LoanAmount': float(loan_amount_thousands),
@@ -274,7 +276,7 @@ def api_train():
         numeric_features = ['ApplicantIncome', 'CoapplicantIncome', 'LoanAmount', 
                            'Loan_Amount_Term', 'Credit_Score']
         categorical_features = ['Gender', 'Married', 'Dependents', 'Education',
-                               'Self_Employed', 'Property_Area']
+                               'Self_Employed', 'Property_Area', 'Purpose']
         
         # Create preprocessing transformers
         numeric_transformer = StandardScaler()

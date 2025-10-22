@@ -1,0 +1,201 @@
+Gender,Married,Dependents,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Property_Area,Purpose,Loan_Status
+Male,Yes,1,Not Graduate,No,508,6797,208,360,1,Urban,Debt Consolidation,Y
+Female,Yes,0,Graduate,No,249,3411,125,180,1,Urban,Medical,Y
+Male,Yes,2,Graduate,No,7143,129,216,480,1,Rural,Medical,Y
+Female,Yes,0,Not Graduate,No,2042,7,166,360,0,Semiurban,Debt Consolidation,Y
+Male,Yes,1,Graduate,No,852,491,156,360,1,Urban,Education,Y
+Male,Yes,1,Graduate,No,1067,967,159,240,1,Urban,Car,Y
+Female,Yes,0,Graduate,No,1070,861,144,300,1,Rural,Education,Y
+Male,Yes,1,Graduate,No,4552,248,157,240,1,Rural,Debt Consolidation,Y
+Male,Yes,1,Graduate,Yes,13080,2221,158,360,1,Urban,Education,Y
+Male,Yes,0,Graduate,No,3923,549,109,360,1,Semiurban,Business,Y
+Male,Yes,0,Graduate,No,2881,3298,149,300,0,Semiurban,Home Purchase,Y
+Male,No,2,Not Graduate,No,1498,4155,211,360,1,Rural,Education,N
+Male,Yes,1,Not Graduate,No,10508,485,84,360,1,Urban,Home Purchase,Y
+Male,Yes,1,Not Graduate,No,295,1978,100,300,1,Urban,Other,Y
+Female,No,1,Graduate,No,1768,135,62,360,0,Rural,Business,Y
+Female,Yes,2,Not Graduate,No,960,472,175,360,1,Rural,Debt Consolidation,N
+Male,Yes,2,Not Graduate,No,15320,66,252,360,1,Urban,Medical,Y
+Male,No,3+,Graduate,No,229,3422,151,300,1,Urban,Business,Y
+Male,No,0,Not Graduate,No,4416,2009,204,240,1,Semiurban,Home Purchase,Y
+Male,Yes,3+,Graduate,No,1571,5584,197,360,1,Rural,Other,Y
+Female,Yes,2,Not Graduate,No,5242,3269,201,360,1,Semiurban,Business,Y
+Male,No,2,Graduate,No,2686,3874,52,300,1,Rural,Home Purchase,Y
+Female,No,0,Graduate,No,1121,1841,79,360,1,Rural,Home Purchase,Y
+Female,Yes,0,Graduate,No,1110,1549,255,300,1,Urban,Home Renovation,Y
+Male,Yes,0,Not Graduate,No,5717,624,174,300,1,Urban,Home Purchase,Y
+Male,Yes,2,Graduate,Yes,1326,396,143,240,1,Rural,Other,Y
+Female,Yes,0,Graduate,No,9126,2607,122,180,1,Urban,Education,Y
+Female,Yes,1,Graduate,Yes,205,716,217,240,1,Urban,Business,N
+Male,Yes,2,Graduate,No,16140,5461,146,240,1,Urban,Home Renovation,Y
+Male,Yes,0,Not Graduate,Yes,4927,2669,175,360,1,Urban,Home Renovation,N
+Male,Yes,2,Graduate,No,5070,439,142,360,1,Urban,Education,Y
+Male,Yes,0,Graduate,No,910,583,197,360,1,Rural,Home Purchase,Y
+Female,Yes,2,Not Graduate,No,908,590,164,360,0,Semiurban,Home Purchase,Y
+Female,Yes,0,Graduate,No,894,1496,185,360,1,Urban,Other,Y
+Male,No,2,Graduate,No,6293,1787,191,240,1,Rural,Home Renovation,Y
+Male,No,2,Graduate,No,5114,565,148,360,1,Urban,Home Renovation,Y
+Male,Yes,0,Graduate,No,7992,364,100,300,1,Semiurban,Medical,Y
+Male,Yes,0,Graduate,No,7525,3238,156,300,1,Rural,Debt Consolidation,Y
+Female,No,0,Graduate,Yes,1902,2525,100,300,1,Urban,Car,Y
+Male,Yes,2,Graduate,No,5766,1733,194,240,1,Urban,Home Purchase,Y
+Female,No,0,Graduate,No,4438,6339,213,360,1,Rural,Home Purchase,Y
+Male,Yes,2,Graduate,No,434,36,68,360,0,Urban,Debt Consolidation,Y
+Female,No,3+,Graduate,Yes,523,170,173,240,1,Semiurban,Car,Y
+Male,Yes,0,Graduate,No,14567,3471,118,360,1,Urban,Home Purchase,Y
+Female,Yes,0,Graduate,No,169,3914,96,360,1,Rural,Car,Y
+Male,Yes,0,Graduate,No,10386,3148,155,360,1,Rural,Business,Y
+Male,Yes,1,Not Graduate,Yes,674,897,147,120,0,Rural,Home Renovation,Y
+Female,Yes,0,Not Graduate,No,1857,177,162,360,1,Rural,Debt Consolidation,Y
+Male,Yes,0,Graduate,No,7395,1401,76,240,1,Semiurban,Education,Y
+Male,No,1,Not Graduate,No,4884,1962,125,240,1,Semiurban,Wedding,Y
+Male,Yes,1,Not Graduate,No,1325,3122,130,360,1,Rural,Business,Y
+Male,Yes,0,Graduate,No,5343,2166,176,360,1,Rural,Business,Y
+Male,Yes,2,Not Graduate,No,1188,1076,124,360,0,Semiurban,Home Renovation,Y
+Male,Yes,2,Graduate,No,2880,2709,238,180,1,Semiurban,Wedding,Y
+Male,Yes,3+,Graduate,Yes,37,6329,195,360,0,Urban,Car,N
+Male,No,0,Not Graduate,No,17502,4137,181,240,1,Urban,Business,Y
+Female,Yes,1,Graduate,No,10087,428,70,360,1,Urban,Education,Y
+Male,No,1,Graduate,No,3083,626,143,360,1,Rural,Home Renovation,Y
+Male,Yes,0,Graduate,No,1633,2571,94,360,1,Rural,Education,Y
+Female,No,2,Graduate,No,3117,2298,155,360,1,Semiurban,Car,Y
+Female,No,1,Graduate,No,1191,2907,119,360,1,Semiurban,Business,Y
+Male,No,0,Graduate,No,10482,445,243,240,1,Rural,Medical,Y
+Male,No,0,Graduate,Yes,374,5276,227,180,1,Rural,Business,N
+Male,No,3+,Graduate,No,2441,1106,110,240,1,Urban,Medical,Y
+Male,Yes,0,Graduate,No,955,484,103,360,1,Semiurban,Car,Y
+Female,No,0,Graduate,No,715,107,203,360,1,Semiurban,Medical,Y
+Female,Yes,0,Graduate,Yes,348,528,200,300,0,Semiurban,Education,Y
+Female,Yes,2,Graduate,No,786,2213,131,240,0,Semiurban,Other,Y
+Female,Yes,0,Not Graduate,No,6341,1234,145,480,1,Urban,Home Renovation,Y
+Male,Yes,3+,Not Graduate,No,3326,5368,109,300,1,Semiurban,Home Purchase,Y
+Male,Yes,3+,Graduate,No,7028,1650,199,360,1,Semiurban,Home Renovation,Y
+Female,Yes,0,Graduate,No,3065,413,190,360,1,Urban,Education,Y
+Female,No,2,Graduate,No,4286,1256,200,180,1,Rural,Education,Y
+Male,Yes,1,Graduate,No,800,587,102,360,0,Semiurban,Debt Consolidation,Y
+Male,Yes,2,Graduate,No,4078,340,151,180,1,Urban,Wedding,Y
+Male,No,3+,Not Graduate,Yes,527,234,123,360,1,Semiurban,Debt Consolidation,Y
+Female,No,1,Graduate,No,5095,6209,111,360,1,Urban,Wedding,Y
+Male,Yes,0,Not Graduate,No,13208,3925,144,300,1,Urban,Home Purchase,Y
+Male,Yes,1,Graduate,Yes,15210,771,168,120,1,Rural,Home Purchase,Y
+Male,Yes,1,Graduate,No,5936,1269,166,300,0,Rural,Business,N
+Male,Yes,2,Not Graduate,No,7805,1183,176,300,1,Semiurban,Home Renovation,Y
+Male,No,3+,Graduate,No,7056,863,147,360,1,Rural,Education,Y
+Female,No,2,Graduate,No,3489,1354,82,360,1,Urban,Home Renovation,Y
+Male,No,1,Graduate,No,27896,5363,128,180,1,Semiurban,Home Renovation,Y
+Male,Yes,2,Graduate,No,3810,5070,118,240,0,Urban,Home Renovation,Y
+Female,Yes,3+,Graduate,No,21857,1351,118,300,1,Semiurban,Business,Y
+Female,Yes,1,Graduate,No,8658,9071,90,120,1,Semiurban,Medical,N
+Male,Yes,3+,Not Graduate,No,2714,485,126,120,1,Semiurban,Business,N
+Male,No,2,Not Graduate,Yes,4635,347,46,360,1,Urban,Home Renovation,Y
+Female,Yes,1,Not Graduate,No,3577,1980,23,360,1,Semiurban,Home Renovation,Y
+Female,Yes,0,Not Graduate,Yes,3271,5736,166,360,1,Semiurban,Education,N
+Male,No,0,Graduate,No,17545,7500,166,240,1,Rural,Home Renovation,Y
+Male,Yes,0,Graduate,No,106,112,86,360,1,Urban,Debt Consolidation,Y
+Male,No,1,Graduate,No,1189,2800,112,360,1,Urban,Car,Y
+Male,Yes,3+,Not Graduate,No,4431,4747,111,360,1,Urban,Wedding,Y
+Female,Yes,0,Not Graduate,Yes,1067,8908,211,360,1,Rural,Home Renovation,Y
+Female,Yes,2,Graduate,No,2850,822,119,240,1,Semiurban,Education,Y
+Female,Yes,1,Graduate,No,8806,625,179,300,1,Semiurban,Home Renovation,N
+Female,Yes,0,Graduate,No,4971,6885,138,300,1,Semiurban,Debt Consolidation,Y
+Male,Yes,1,Not Graduate,No,6165,7397,156,240,1,Semiurban,Home Purchase,Y
+Male,Yes,0,Graduate,No,1032,2191,76,360,1,Semiurban,Car,Y
+Male,Yes,0,Graduate,No,5426,5070,139,360,1,Semiurban,Home Renovation,Y
+Female,No,0,Graduate,No,1069,2585,92,300,1,Urban,Education,N
+Male,Yes,2,Graduate,No,3914,445,223,240,0,Semiurban,Medical,Y
+Male,No,2,Graduate,No,488,524,138,300,1,Rural,Other,Y
+Male,Yes,0,Not Graduate,No,5647,3890,164,360,0,Rural,Car,Y
+Female,No,1,Not Graduate,No,2595,1578,88,360,1,Semiurban,Business,Y
+Male,Yes,0,Graduate,No,1706,1582,155,240,1,Urban,Home Renovation,Y
+Male,No,3+,Graduate,No,12050,2,131,480,1,Rural,Education,Y
+Female,Yes,0,Graduate,No,3376,2870,233,240,1,Rural,Car,Y
+Male,Yes,2,Not Graduate,No,7937,3515,112,240,1,Rural,Debt Consolidation,Y
+Male,No,2,Graduate,No,15846,282,204,240,1,Urban,Business,Y
+Female,No,0,Graduate,No,839,1050,43,360,1,Urban,Debt Consolidation,Y
+Male,Yes,3+,Graduate,No,8727,40,190,240,1,Rural,Education,Y
+Female,Yes,0,Not Graduate,No,1858,676,154,360,1,Semiurban,Business,Y
+Female,Yes,2,Graduate,No,924,207,78,120,1,Urban,Education,Y
+Female,Yes,2,Graduate,No,1383,2317,181,480,1,Urban,Car,Y
+Male,Yes,2,Graduate,Yes,8615,1231,176,360,1,Urban,Business,Y
+Male,Yes,0,Graduate,No,9754,722,143,360,1,Semiurban,Debt Consolidation,N
+Male,Yes,0,Graduate,No,899,1319,175,360,1,Semiurban,Education,Y
+Female,No,2,Graduate,No,4928,461,85,180,1,Urban,Home Renovation,Y
+Female,Yes,1,Not Graduate,No,771,3697,211,360,1,Rural,Business,Y
+Female,No,1,Graduate,No,564,417,153,360,1,Semiurban,Home Renovation,Y
+Male,No,1,Graduate,No,1201,1125,166,300,1,Urban,Home Purchase,Y
+Male,Yes,0,Graduate,No,3364,223,118,180,1,Semiurban,Business,Y
+Male,Yes,1,Graduate,No,2283,1911,184,240,0,Urban,Car,Y
+Male,Yes,3+,Graduate,Yes,4524,340,98,360,1,Semiurban,Home Purchase,Y
+Male,Yes,2,Not Graduate,No,13917,291,132,240,1,Rural,Business,N
+Female,Yes,0,Not Graduate,No,4229,421,101,360,1,Rural,Home Renovation,Y
+Female,No,0,Not Graduate,No,1339,112,183,300,1,Rural,Car,Y
+Female,Yes,0,Graduate,No,1652,3174,155,480,1,Semiurban,Business,N
+Female,Yes,0,Not Graduate,No,3074,737,111,300,1,Semiurban,Home Purchase,Y
+Male,No,0,Graduate,No,3015,2468,191,300,1,Urban,Home Renovation,N
+Female,Yes,0,Graduate,No,789,1208,171,360,1,Urban,Home Renovation,Y
+Male,No,2,Graduate,Yes,1018,2039,244,360,1,Rural,Education,Y
+Male,Yes,1,Graduate,No,2066,293,141,180,1,Urban,Home Purchase,Y
+Female,Yes,1,Graduate,No,2508,1161,138,300,1,Urban,Home Renovation,Y
+Male,Yes,2,Graduate,No,2093,3515,73,300,1,Rural,Business,Y
+Male,Yes,1,Not Graduate,No,1137,115,121,360,1,Rural,Home Renovation,N
+Male,No,2,Not Graduate,Yes,1410,4531,145,240,1,Urban,Education,Y
+Male,Yes,1,Graduate,No,10785,8528,76,300,1,Urban,Debt Consolidation,Y
+Female,Yes,1,Graduate,No,3952,1425,20,300,1,Urban,Home Purchase,Y
+Female,Yes,2,Graduate,No,779,365,72,300,1,Rural,Home Purchase,Y
+Female,Yes,0,Graduate,No,8609,569,109,360,1,Urban,Home Renovation,Y
+Male,Yes,3+,Graduate,No,6038,1615,149,120,0,Semiurban,Debt Consolidation,Y
+Female,No,2,Graduate,Yes,4233,656,105,120,1,Rural,Business,Y
+Male,No,0,Not Graduate,No,4096,943,119,300,1,Rural,Debt Consolidation,N
+Female,Yes,2,Graduate,No,3761,137,197,180,1,Rural,Home Purchase,Y
+Male,Yes,0,Graduate,No,2607,1075,109,360,1,Semiurban,Home Purchase,Y
+Male,No,0,Graduate,No,4102,1580,141,180,1,Urban,Business,N
+Female,Yes,0,Graduate,No,6727,1651,151,360,1,Urban,Business,Y
+Male,Yes,2,Graduate,No,7181,1800,153,300,1,Semiurban,Wedding,Y
+Female,Yes,0,Not Graduate,Yes,5156,187,103,360,1,Semiurban,Home Renovation,Y
+Male,No,0,Not Graduate,No,137,746,184,240,0,Urban,Home Renovation,Y
+Female,Yes,1,Not Graduate,No,1546,7,165,300,1,Semiurban,Home Renovation,Y
+Male,Yes,0,Graduate,No,11307,5316,145,360,1,Semiurban,Home Purchase,Y
+Male,Yes,1,Not Graduate,No,3076,548,88,240,1,Semiurban,Home Purchase,Y
+Female,Yes,0,Graduate,No,728,1167,136,180,1,Urban,Car,Y
+Male,No,1,Graduate,No,13344,336,227,360,1,Semiurban,Home Purchase,Y
+Male,Yes,3+,Graduate,No,8050,616,232,300,1,Urban,Education,Y
+Female,No,1,Not Graduate,No,2243,2254,151,300,1,Rural,Other,Y
+Male,Yes,0,Graduate,Yes,4992,521,85,240,1,Rural,Medical,Y
+Male,Yes,0,Graduate,No,919,422,118,480,1,Semiurban,Home Purchase,Y
+Male,Yes,1,Graduate,No,893,1296,220,120,0,Urban,Home Purchase,Y
+Male,No,0,Graduate,Yes,1885,130,213,360,1,Rural,Home Renovation,Y
+Female,Yes,1,Graduate,No,4703,1104,139,360,1,Semiurban,Business,Y
+Male,No,2,Graduate,No,20859,954,75,360,1,Semiurban,Business,Y
+Male,Yes,0,Graduate,No,1145,2354,154,240,1,Rural,Home Renovation,Y
+Female,Yes,0,Graduate,No,717,247,144,360,1,Urban,Education,Y
+Female,No,1,Not Graduate,No,3052,2546,155,240,1,Rural,Home Renovation,Y
+Male,Yes,0,Graduate,Yes,7328,306,75,300,1,Rural,Education,Y
+Female,No,1,Not Graduate,Yes,10113,3735,51,300,0,Urban,Debt Consolidation,Y
+Male,Yes,1,Graduate,No,110,770,138,360,1,Semiurban,Education,Y
+Male,Yes,2,Graduate,Yes,14752,1372,39,360,1,Urban,Home Purchase,Y
+Male,Yes,3+,Graduate,Yes,2189,2736,90,360,1,Semiurban,Debt Consolidation,Y
+Male,Yes,2,Graduate,No,2466,5898,136,360,0,Urban,Education,Y
+Male,No,0,Graduate,Yes,10187,342,112,300,0,Urban,Debt Consolidation,Y
+Female,No,1,Graduate,No,8756,3814,132,300,1,Semiurban,Debt Consolidation,Y
+Female,No,2,Not Graduate,No,8648,63,137,360,1,Semiurban,Home Purchase,Y
+Male,Yes,0,Graduate,No,203,4269,92,300,1,Urban,Business,Y
+Female,No,3+,Graduate,Yes,1382,2912,72,360,1,Semiurban,Education,Y
+Male,Yes,0,Graduate,Yes,698,8620,152,240,0,Rural,Business,Y
+Male,Yes,0,Not Graduate,Yes,11088,2500,117,360,1,Rural,Debt Consolidation,Y
+Male,No,0,Not Graduate,No,8560,3161,104,300,1,Urban,Other,Y
+Male,Yes,1,Graduate,No,596,912,159,300,1,Urban,Education,Y
+Male,No,2,Graduate,No,185,1085,86,360,1,Urban,Home Renovation,Y
+Male,Yes,0,Graduate,No,1098,823,216,360,1,Semiurban,Medical,N
+Female,No,2,Graduate,No,21202,9876,119,300,1,Rural,Debt Consolidation,N
+Male,No,2,Graduate,Yes,3856,2950,98,240,0,Rural,Car,Y
+Female,Yes,1,Not Graduate,Yes,5369,1358,123,300,1,Rural,Home Purchase,Y
+Male,Yes,0,Not Graduate,No,4407,1061,133,360,1,Semiurban,Business,Y
+Male,Yes,1,Graduate,No,3801,880,173,240,0,Semiurban,Home Purchase,Y
+Female,Yes,2,Graduate,No,4944,1935,192,300,1,Semiurban,Home Purchase,N
+Male,Yes,1,Graduate,Yes,17051,2714,203,300,1,Urban,Other,Y
+Male,Yes,2,Graduate,No,228,3603,132,240,1,Urban,Business,Y
+Male,No,0,Graduate,No,4306,476,65,300,1,Urban,Debt Consolidation,N
+Male,Yes,0,Graduate,No,124,880,166,120,1,Semiurban,Home Purchase,Y
+Male,No,0,Not Graduate,Yes,3471,932,264,240,1,Urban,Other,Y
+Male,Yes,2,Graduate,No,1360,4411,200,360,1,Semiurban,Home Purchase,Y
+Female,Yes,0,Not Graduate,No,3206,378,181,360,1,Semiurban,Home Renovation,Y

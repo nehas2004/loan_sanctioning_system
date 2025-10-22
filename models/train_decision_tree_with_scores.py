@@ -15,7 +15,7 @@ test_data = pd.read_csv('data/loan_test_split_with_scores.csv')
 numeric_features = ['ApplicantIncome', 'CoapplicantIncome', 'LoanAmount', 
                    'Loan_Amount_Term', 'Credit_Score']
 categorical_features = ['Gender', 'Married', 'Dependents', 'Education',
-                       'Self_Employed', 'Property_Area']
+                       'Self_Employed', 'Property_Area', 'Purpose']
 
 # Create preprocessing transformers
 numeric_transformer = StandardScaler()
